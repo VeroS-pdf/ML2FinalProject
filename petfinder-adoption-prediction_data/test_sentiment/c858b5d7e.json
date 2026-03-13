@@ -1,0 +1,295 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Hello!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Choo Choo is a kitten I rescued when I found her wandering around alone at the LRT station(hence the name Choo Choo, as in like choo choo train).",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "She is a sweet 2.5 months old ginger baby who will take afternoon naps with you.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "She has been dewormed, treated for fleas and is now litter box trained.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "She is a little underweight due to being abandoned and because she was unwell, but she has been treated and has become very active and playful.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She also makes the cutest yum yum sounds when she's eating!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Please contact me for more info and if you would like to give her a forever loving home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "ginger baby",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.86167496,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "ginger baby",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Choo Choo",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.046816077,
+      "mentions": [
+        {
+          "text": {
+            "content": "Choo Choo",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Choo Choo",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "station",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.013090256,
+      "mentions": [
+        {
+          "text": {
+            "content": "station",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013090256,
+      "mentions": [
+        {
+          "text": {
+            "content": "name",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "litter box",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010420636,
+      "mentions": [
+        {
+          "text": {
+            "content": "litter box",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "underweight",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010392274,
+      "mentions": [
+        {
+          "text": {
+            "content": "underweight",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "afternoon naps",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010204939,
+      "mentions": [
+        {
+          "text": {
+            "content": "afternoon naps",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "fleas",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008889787,
+      "mentions": [
+        {
+          "text": {
+            "content": "fleas",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "LRT",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/0dft2",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Light_rail"
+      },
+      "salience": 0.007766215,
+      "mentions": [
+        {
+          "text": {
+            "content": "LRT",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "choo choo train",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.005246998,
+      "mentions": [
+        {
+          "text": {
+            "content": "choo choo train",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "cutest",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004853069,
+      "mentions": [
+        {
+          "text": {
+            "content": "cutest",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0042844573,
+      "mentions": [
+        {
+          "text": {
+            "content": "info",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0032700992,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 3.7,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

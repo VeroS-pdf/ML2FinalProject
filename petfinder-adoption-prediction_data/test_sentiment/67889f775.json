@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Name: Jazz Age: 3 months Sex: Female 1st vaccination &amp; deworm Skillful to catch ball &amp; stick",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Name",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5266,
+      "mentions": [
+        {
+          "text": {
+            "content": "Name",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Jazz Age",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/01cd2k",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jazz_Age"
+      },
+      "salience": 0.14387022,
+      "mentions": [
+        {
+          "text": {
+            "content": "Jazz Age",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "ball",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.11639514,
+      "mentions": [
+        {
+          "text": {
+            "content": "ball",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sex: Female 1st vaccination",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.099078834,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sex: Female 1st vaccination",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "stick",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.08272534,
+      "mentions": [
+        {
+          "text": {
+            "content": "stick",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Skillful",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.03133044,
+      "mentions": [
+        {
+          "text": {
+            "content": "Skillful",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

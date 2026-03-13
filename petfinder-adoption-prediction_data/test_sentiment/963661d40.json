@@ -1,0 +1,793 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "The first I heard about this kitten was from a stall-holder at the nearby kopitiam who mentioned &quot;a very funny-looking kitten scampering under the tables and feet of her customers&quot; seemingly unconcerned about any danger of being trampled underfoot.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    },
+    {
+      "text": {
+        "content": "It was contentedly chasing bugs and playing among the litter.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    },
+    {
+      "text": {
+        "content": "I brought it home to observe for a couple of days, hoping for the mother cat to appear (no such luck).",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Perseveringly charming and 'humble' to the others, he has managed to win the trust of my other 3 cats in 2 weeks.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "It is Teddy's modus operandi to go up to a stretched-out cat on the floor and snuggle up to pseudo-nurse.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Even though all my other cats have been neutered, I think instinct kicks-in upon this nursing action to calm the nerves of all concerned.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "So Teddy now has 3 pseudo-moms who will groom him and allow him to snuggle up to them!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Monti, my oldest male cat, plays the part of big brother (sometimes mother!) and seems to be the most tolerant of Teddy, allowing him a wide measure of freedom for mischief.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Unfortunately, I can't keep Teddy permanently due to space constraints and I worry that 4 full-grown cats under one roof may be a little too much to ask of my feline friends.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "All signs indicate that Teddy is very accommodating and may be quite partial to sharing living space with other cats (subject to the normal feline introduction procedures, of course)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.16824865,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "stall-holder",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.14896101,
+      "mentions": [
+        {
+          "text": {
+            "content": "stall-holder",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Teddy",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.073508106,
+      "mentions": [
+        {
+          "text": {
+            "content": "Teddy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Teddy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Teddy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Teddy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Teddy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.068584986,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kopitiam",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.060431425,
+      "mentions": [
+        {
+          "text": {
+            "content": "kopitiam",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tables",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.060431425,
+      "mentions": [
+        {
+          "text": {
+            "content": "tables",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "feet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.060431425,
+      "mentions": [
+        {
+          "text": {
+            "content": "feet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "customers",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.060431425,
+      "mentions": [
+        {
+          "text": {
+            "content": "customers",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "modus operandi",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.036639974,
+      "mentions": [
+        {
+          "text": {
+            "content": "modus operandi",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.035503346,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "much",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "danger",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.023180075,
+      "mentions": [
+        {
+          "text": {
+            "content": "danger",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pseudo-moms",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.019968133,
+      "mentions": [
+        {
+          "text": {
+            "content": "pseudo-moms",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "litter",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.011164629,
+      "mentions": [
+        {
+          "text": {
+            "content": "litter",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bugs",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011164629,
+      "mentions": [
+        {
+          "text": {
+            "content": "bugs",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010086964,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010013652,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009414859,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mother cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009358507,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "instinct",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0090518,
+      "mentions": [
+        {
+          "text": {
+            "content": "instinct",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pseudo-nurse",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008588975,
+      "mentions": [
+        {
+          "text": {
+            "content": "pseudo-nurse",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "floor",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0075461157,
+      "mentions": [
+        {
+          "text": {
+            "content": "floor",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "luck",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0075009153,
+      "mentions": [
+        {
+          "text": {
+            "content": "luck",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "others",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0074744597,
+      "mentions": [
+        {
+          "text": {
+            "content": "others",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "trust",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0074744597,
+      "mentions": [
+        {
+          "text": {
+            "content": "trust",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "nursing action",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.0069089113,
+      "mentions": [
+        {
+          "text": {
+            "content": "nursing action",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "nerves",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0069089113,
+      "mentions": [
+        {
+          "text": {
+            "content": "nerves",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mischief",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0051894668,
+      "mentions": [
+        {
+          "text": {
+            "content": "mischief",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "roof",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0051819584,
+      "mentions": [
+        {
+          "text": {
+            "content": "roof",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "space constraints",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0051819584,
+      "mentions": [
+        {
+          "text": {
+            "content": "space constraints",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Monti",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.005154804,
+      "mentions": [
+        {
+          "text": {
+            "content": "Monti",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004856169,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "living space",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0047802585,
+      "mentions": [
+        {
+          "text": {
+            "content": "living space",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "friends",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0036276008,
+      "mentions": [
+        {
+          "text": {
+            "content": "friends",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "feline introduction procedures",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0036229026,
+      "mentions": [
+        {
+          "text": {
+            "content": "feline introduction procedures",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "signs",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0036229026,
+      "mentions": [
+        {
+          "text": {
+            "content": "signs",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "course",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0036229026,
+      "mentions": [
+        {
+          "text": {
+            "content": "course",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0028412368,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tolerant",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0028057375,
+      "mentions": [
+        {
+          "text": {
+            "content": "tolerant",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0025914095,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "freedom",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0022761098,
+      "mentions": [
+        {
+          "text": {
+            "content": "freedom",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "measure",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0022761098,
+      "mentions": [
+        {
+          "text": {
+            "content": "measure",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "big brother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0022761098,
+      "mentions": [
+        {
+          "text": {
+            "content": "big brother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "part",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0011145783,
+      "mentions": [
+        {
+          "text": {
+            "content": "part",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 4.7,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

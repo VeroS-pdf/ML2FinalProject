@@ -1,0 +1,158 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Hey , i have this active twins.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "They are so cute and super active , but i dont have any place for them.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    },
+    {
+      "text": {
+        "content": "Sadly i have to let them go , Call my mom if u are interested to adopt them for free:)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "BOTH ARE MALE TEXT AT NUMBER (NORHAYATI)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "twins",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.84941715,
+      "mentions": [
+        {
+          "text": {
+            "content": "twins",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "place",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.047606803,
+      "mentions": [
+        {
+          "text": {
+            "content": "place",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "BOTH",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.032364786,
+      "mentions": [
+        {
+          "text": {
+            "content": "BOTH",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "NUMBER",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02326976,
+      "mentions": [
+        {
+          "text": {
+            "content": "NUMBER",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "TEXT",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.018897492,
+      "mentions": [
+        {
+          "text": {
+            "content": "TEXT",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mom",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.014660165,
+      "mentions": [
+        {
+          "text": {
+            "content": "mom",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "NORHAYATI",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.01378386,
+      "mentions": [
+        {
+          "text": {
+            "content": "NORHAYATI",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "She was found wandering here, in University Malaysia Pahang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She didn't bite or chase people.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She's such a kind dog but scared of crowd.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "I'm not so sure actually whether Nicole is a female or vice versa.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.82549727,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Nicole",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.05304403,
+      "mentions": [
+        {
+          "text": {
+            "content": "Nicole",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "female",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "University Malaysia Pahang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/07jyc0",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Universiti_Malaysia_Pahang"
+      },
+      "salience": 0.051713884,
+      "mentions": [
+        {
+          "text": {
+            "content": "University Malaysia Pahang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.029079532,
+      "mentions": [
+        {
+          "text": {
+            "content": "people",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "crowd",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.026587872,
+      "mentions": [
+        {
+          "text": {
+            "content": "crowd",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vice versa",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.014077441,
+      "mentions": [
+        {
+          "text": {
+            "content": "vice versa",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

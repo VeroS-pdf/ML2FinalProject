@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Blue Diamond Eye.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Cream hair.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Cute and active 1) Cookies 2) Muffin 3) Oreo 4) Mocha Please whatsapps me or call me at",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Blue Diamond Eye",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.62811416,
+      "mentions": [
+        {
+          "text": {
+            "content": "Blue Diamond Eye",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Cream hair",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21966168,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cream hair",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Cookies",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.15222418,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cookies",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.2,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

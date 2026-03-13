@@ -1,0 +1,207 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Mr.Ben is only 1month plus and he is up for pre-adoption.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Will only be able to go back to his forever home after EARLY NOVEMBER as they are still depending on their mother's milk.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Very active and loves to play arnd.. born on the 25th August Location: bandar sri damansara Tel: (Ms Daffy)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Ben",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.61076254,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ben",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Mr.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "plus",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.20759557,
+      "mentions": [
+        {
+          "text": {
+            "content": "plus",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pre-adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.06742148,
+      "mentions": [
+        {
+          "text": {
+            "content": "pre-adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Daffy",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.02452473,
+      "mentions": [
+        {
+          "text": {
+            "content": "Daffy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ms",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.022423685,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "milk",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02084675,
+      "mentions": [
+        {
+          "text": {
+            "content": "milk",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.02084675,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.015675882,
+      "mentions": [
+        {
+          "text": {
+            "content": "Location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bandar sri damansara Tel",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.006515408,
+      "mentions": [
+        {
+          "text": {
+            "content": "bandar sri damansara Tel",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "arnd",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0033872228,
+      "mentions": [
+        {
+          "text": {
+            "content": "arnd",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

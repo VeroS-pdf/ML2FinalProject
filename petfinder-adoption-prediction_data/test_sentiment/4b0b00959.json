@@ -1,0 +1,214 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Cinnamon was found dumped by the garbage dump as a puppy along with her siblings.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    },
+    {
+      "text": {
+        "content": "Three of the siblings remain, having grown up at LASSIE: Cinnamon, Cardamon and Clove.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "They can be adopted separately of together and all three girls are very friendly.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Cinnamon",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.33210185,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cinnamon",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.14315371,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "garbage dump",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.12158217,
+      "mentions": [
+        {
+          "text": {
+            "content": "garbage dump",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "puppy",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.12158217,
+      "mentions": [
+        {
+          "text": {
+            "content": "puppy",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.09446583,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Three",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.056755338,
+      "mentions": [
+        {
+          "text": {
+            "content": "Three",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Cinnamon",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.04300645,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cinnamon",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "LASSIE",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.037852626,
+      "mentions": [
+        {
+          "text": {
+            "content": "LASSIE",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Cardamon",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cardamom",
+        "mid": "/m/0gk0z"
+      },
+      "salience": 0.022506695,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cardamon",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "girls",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0195182,
+      "mentions": [
+        {
+          "text": {
+            "content": "girls",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Clove",
+      "type": "OTHER",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clove",
+        "mid": "/g/121hrbw_"
+      },
+      "salience": 0.007474951,
+      "mentions": [
+        {
+          "text": {
+            "content": "Clove",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.1,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,173 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "1)The 2nd among 5 siblings 2)Very active &amp; playful. 3)Already know to use litter 4)Stop breastfeeding at age 2 months 5)Currently eating combination of holistic food, Origin &amp; Acana 6)No lice at all 7)Dewormed at age 2 weeks",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.35895926,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.118609205,
+      "mentions": [
+        {
+          "text": {
+            "content": "age",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "breastfeeding",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.10482841,
+      "mentions": [
+        {
+          "text": {
+            "content": "breastfeeding",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "litter",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.1036033,
+      "mentions": [
+        {
+          "text": {
+            "content": "litter",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "combination",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.09653446,
+      "mentions": [
+        {
+          "text": {
+            "content": "combination",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "lice",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07348451,
+      "mentions": [
+        {
+          "text": {
+            "content": "lice",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05892576,
+      "mentions": [
+        {
+          "text": {
+            "content": "age",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03278663,
+      "mentions": [
+        {
+          "text": {
+            "content": "food",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Origin",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03278663,
+      "mentions": [
+        {
+          "text": {
+            "content": "Origin",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Acana 6",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.019481834,
+      "mentions": [
+        {
+          "text": {
+            "content": "Acana 6",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

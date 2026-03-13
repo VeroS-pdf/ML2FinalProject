@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Sirius was found in Bandar Sri Damansara abandoned by his mother.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Sirius",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.6029058,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sirius",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "mother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.21302637,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Bandar Sri Damansara",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0czg9y",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bandar_Sri_Damansara"
+      },
+      "salience": 0.18406782,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bandar Sri Damansara",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": -0.2
+  },
+  "language": "en",
+  "categories": []
+}

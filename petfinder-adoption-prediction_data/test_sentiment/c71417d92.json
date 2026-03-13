@@ -1,0 +1,212 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Frosty is constantly admired for his good looks, but more than that he also has a very friendly demeanor.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "He currently lives with the three sisters: Cinnamon, Cardamom and Clove, but would love a home of his own.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "Contact us if interested in him.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Adoption by donation.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Frosty",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/04m8kf",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frosty_(frozen_dairy_dessert)"
+      },
+      "salience": 0.32784772,
+      "mentions": [
+        {
+          "text": {
+            "content": "Frosty",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "looks",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21466422,
+      "mentions": [
+        {
+          "text": {
+            "content": "looks",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "demeanor",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.1467277,
+      "mentions": [
+        {
+          "text": {
+            "content": "demeanor",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sisters",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.072267555,
+      "mentions": [
+        {
+          "text": {
+            "content": "sisters",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Cinnamon",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.066374265,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cinnamon",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Cardamom",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "mid": "/m/0gk0z",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cardamom"
+      },
+      "salience": 0.039415803,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cardamom",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Clove",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/g/121hrbw_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clove"
+      },
+      "salience": 0.039415803,
+      "mentions": [
+        {
+          "text": {
+            "content": "Clove",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.034897253,
+      "mentions": [
+        {
+          "text": {
+            "content": "Adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "donation",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.034897253,
+      "mentions": [
+        {
+          "text": {
+            "content": "donation",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.02349243,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.8,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

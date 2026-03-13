@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Notty was one of two kittens rescued by students on the UNMC campus recently.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Notty",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.34828842,
+      "mentions": [
+        {
+          "text": {
+            "content": "Notty",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "one",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.22976995,
+      "mentions": [
+        {
+          "text": {
+            "content": "one",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kittens",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.14849909,
+      "mentions": [
+        {
+          "text": {
+            "content": "kittens",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "students",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.13863833,
+      "mentions": [
+        {
+          "text": {
+            "content": "students",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "campus",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.1062142,
+      "mentions": [
+        {
+          "text": {
+            "content": "campus",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "UNMC",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Nebraska_Medical_Center",
+        "mid": "/m/0d1rzh"
+      },
+      "salience": 0.028590007,
+      "mentions": [
+        {
+          "text": {
+            "content": "UNMC",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

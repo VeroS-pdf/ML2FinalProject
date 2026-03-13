@@ -1,0 +1,219 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Owners adopted her and they have moved leaving behind her and another dog.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "They do come by to feed them but it is on a very small scale which is not enough.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Looking for a good home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "located at the Sleeping Buddha road (off burma road), pulau tikus, penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Has been sent to BM SPCA.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Owners",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.7741759,
+      "mentions": [
+        {
+          "text": {
+            "content": "Owners",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "scale",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07275744,
+      "mentions": [
+        {
+          "text": {
+            "content": "scale",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.072329536,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.02221484,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "burma road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.019020407,
+      "mentions": [
+        {
+          "text": {
+            "content": "burma road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pulau tikus",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0ftwd_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pulau_Tikus"
+      },
+      "salience": 0.009916481,
+      "mentions": [
+        {
+          "text": {
+            "content": "pulau tikus",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "penang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0g6xq",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+      },
+      "salience": 0.009916481,
+      "mentions": [
+        {
+          "text": {
+            "content": "penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.008381422,
+      "mentions": [
+        {
+          "text": {
+            "content": "road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "BM SPCA",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.006929953,
+      "mentions": [
+        {
+          "text": {
+            "content": "BM SPCA",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Sleeping Buddha",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0043575703,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sleeping Buddha",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.1,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

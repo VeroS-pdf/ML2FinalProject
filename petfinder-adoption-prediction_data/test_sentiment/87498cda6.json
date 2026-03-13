@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "A gentle cat.Like to stand still and look at outside ...With Sebastian are siblings ,hope both of them can be adopted together :)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.46472377,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat.",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.40977973,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sebastian",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.08223644,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sebastian",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "both",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.04326008,
+      "mentions": [
+        {
+          "text": {
+            "content": "both",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

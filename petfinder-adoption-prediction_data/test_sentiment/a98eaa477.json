@@ -1,0 +1,243 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "SAD!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "5 female mongrel puppies were found abandoned at a container at seri serdang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": -0.7
+      }
+    },
+    {
+      "text": {
+        "content": "wonder who is so cruel to dump them there, estimate ard 1 month old, who do not know how to look for food, without mummy together.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    },
+    {
+      "text": {
+        "content": "too sad to see them wandering around the container (a company), with high risk of being knock down by vehicles coz there is a car washing service center nearby.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Please give them a home!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "SAD",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.3960387,
+      "mentions": [
+        {
+          "text": {
+            "content": "SAD",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mongrel puppies",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.19893388,
+      "mentions": [
+        {
+          "text": {
+            "content": "mongrel puppies",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "container",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.087806486,
+      "mentions": [
+        {
+          "text": {
+            "content": "container",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "wonder",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.076918,
+      "mentions": [
+        {
+          "text": {
+            "content": "wonder",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.052789047,
+      "mentions": [
+        {
+          "text": {
+            "content": "food",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mummy",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.048474792,
+      "mentions": [
+        {
+          "text": {
+            "content": "mummy",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vehicles",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.03648373,
+      "mentions": [
+        {
+          "text": {
+            "content": "vehicles",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "car washing service center",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.03268291,
+      "mentions": [
+        {
+          "text": {
+            "content": "car washing service center",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.019485783,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "container",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.018273877,
+      "mentions": [
+        {
+          "text": {
+            "content": "container",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.016056396,
+      "mentions": [
+        {
+          "text": {
+            "content": "company",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "risk",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.016056396,
+      "mentions": [
+        {
+          "text": {
+            "content": "risk",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.4,
+    "score": -0.4
+  },
+  "language": "en",
+  "categories": []
+}

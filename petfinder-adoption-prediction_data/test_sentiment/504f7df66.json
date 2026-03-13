@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Healthy and Charming RmKG Bow and Tie cat food.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "(fixed)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "cat food",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.4278255,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat food",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Tie",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/01rkbr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Necktie"
+      },
+      "salience": 0.28770858,
+      "mentions": [
+        {
+          "text": {
+            "content": "Tie",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Charming RmKG Bow",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2844659,
+      "mentions": [
+        {
+          "text": {
+            "content": "Charming RmKG Bow",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.1,
+    "score": 0.5
+  },
+  "language": "en",
+  "categories": []
+}

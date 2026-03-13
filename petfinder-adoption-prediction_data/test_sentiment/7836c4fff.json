@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "is a lovable and pretty cat.free adopt must keep indoor always send foto let me know she is fine.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "PLS GIVE FOREVER HOME",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "foto",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.5300213,
+      "mentions": [
+        {
+          "text": {
+            "content": "foto",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "PLS",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.32761222,
+      "mentions": [
+        {
+          "text": {
+            "content": "PLS",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "HOME",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.14236647,
+      "mentions": [
+        {
+          "text": {
+            "content": "HOME",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

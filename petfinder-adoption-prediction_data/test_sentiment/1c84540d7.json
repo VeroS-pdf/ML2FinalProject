@@ -1,0 +1,216 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "These two puppies are so full of life.Their Mom is a security dog in a construction site.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "they are o smart, create their own games, quiet, and playful.They are rough and tugh and can play all day..quietly.They have very clever parents.I used to feed their father and still feed their Mom despite her working(No time to cook).She has brought up her pups so well.Please, give them a chance.They will love you and entertain you with their antiques..Open your home",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "puppies",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2901375,
+      "mentions": [
+        {
+          "text": {
+            "content": "puppies",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "parents.",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.2564206,
+      "mentions": [
+        {
+          "text": {
+            "content": "parents.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Mom",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.16948894,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mom",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Mom",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/0lbxz",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mother"
+      },
+      "salience": 0.06888311,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mom",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "security dog",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.062983036,
+      "mentions": [
+        {
+          "text": {
+            "content": "security dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "construction site",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.04954174,
+      "mentions": [
+        {
+          "text": {
+            "content": "construction site",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pups",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.038215674,
+      "mentions": [
+        {
+          "text": {
+            "content": "pups",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "games",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.016261334,
+      "mentions": [
+        {
+          "text": {
+            "content": "games",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.016261334,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "father",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.01511083,
+      "mentions": [
+        {
+          "text": {
+            "content": "father",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "chance.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0087062735,
+      "mentions": [
+        {
+          "text": {
+            "content": "chance.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "antiques",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.007989645,
+      "mentions": [
+        {
+          "text": {
+            "content": "antiques",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

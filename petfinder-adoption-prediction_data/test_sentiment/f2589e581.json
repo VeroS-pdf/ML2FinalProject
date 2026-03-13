@@ -1,0 +1,193 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Helping a customer to re-home his cocker as he has been posted overseas.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Red Buff American Cocker Spaniel, Male, 8 Months Old.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Healthy.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Adoption Fee of RM Applies.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Interested parties may contact Desiree @ +.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Email :",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "customer",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.7487921,
+      "mentions": [
+        {
+          "text": {
+            "content": "customer",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cocker",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.105387285,
+      "mentions": [
+        {
+          "text": {
+            "content": "cocker",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "overseas",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.064353794,
+      "mentions": [
+        {
+          "text": {
+            "content": "overseas",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "parties",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.032010335,
+      "mentions": [
+        {
+          "text": {
+            "content": "parties",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Red Buff American Cocker Spaniel",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.019065699,
+      "mentions": [
+        {
+          "text": {
+            "content": "Red Buff American Cocker Spaniel",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Email",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.015434719,
+      "mentions": [
+        {
+          "text": {
+            "content": "Email",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Desiree @ +",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.009178661,
+      "mentions": [
+        {
+          "text": {
+            "content": "Desiree @ +",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Adoption Fee of RM Applies",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.0057774046,
+      "mentions": [
+        {
+          "text": {
+            "content": "Adoption Fee of RM Applies",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

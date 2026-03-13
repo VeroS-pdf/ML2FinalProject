@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Diet: Iams and Royal Canin 32 Others: 1.Toilet Trained 2.Active and playful Self-pickup",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Diet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.427476,
+      "mentions": [
+        {
+          "text": {
+            "content": "Diet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Iams",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/02pkvr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Iams"
+      },
+      "salience": 0.28357792,
+      "mentions": [
+        {
+          "text": {
+            "content": "Iams",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Others",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.13605388,
+      "mentions": [
+        {
+          "text": {
+            "content": "Others",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Royal Canin",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Canin",
+        "mid": "/m/0bq5x1"
+      },
+      "salience": 0.083271235,
+      "mentions": [
+        {
+          "text": {
+            "content": "Royal Canin",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Self-pickup",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.06962098,
+      "mentions": [
+        {
+          "text": {
+            "content": "Self-pickup",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

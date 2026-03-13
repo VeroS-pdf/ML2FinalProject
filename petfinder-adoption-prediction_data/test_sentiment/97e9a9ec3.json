@@ -1,0 +1,156 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "3 of them is paling KESIAN 1...their mother &amp; sibling pass away 1 by 1..i found them at TNB room, when they are around 2 months..feed them everyday.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Now they are with me n no need stay at that TNB room again...hope they can find a sweet home :)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "KESIAN",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.80285054,
+      "mentions": [
+        {
+          "text": {
+            "content": "KESIAN",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "mother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.050950572,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sibling",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.050950572,
+      "mentions": [
+        {
+          "text": {
+            "content": "sibling",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "room",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.039950296,
+      "mentions": [
+        {
+          "text": {
+            "content": "room",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "TNB",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/046wgz",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tenaga_Nasional"
+      },
+      "salience": 0.023612712,
+      "mentions": [
+        {
+          "text": {
+            "content": "TNB",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "TNB room",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.013512099,
+      "mentions": [
+        {
+          "text": {
+            "content": "TNB room",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.01294097,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "need stay",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.005232245,
+      "mentions": [
+        {
+          "text": {
+            "content": "need stay",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

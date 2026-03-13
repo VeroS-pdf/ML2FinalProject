@@ -1,0 +1,172 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "D.O.B: 25 Feb Very active &amp; playful kittens.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "Like to climb.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "He has 5 siblings... the other four is Pumpkin,Mocha,Silver &amp; Milo.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "D.O.B",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.4702492,
+      "mentions": [
+        {
+          "text": {
+            "content": "D.O.B",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "kittens",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.21625908,
+      "mentions": [
+        {
+          "text": {
+            "content": "kittens",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.098556444,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Silver",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.07466219,
+      "mentions": [
+        {
+          "text": {
+            "content": "Silver",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Mocha",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/06jdrl",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caffè_mocha"
+      },
+      "salience": 0.04441855,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mocha",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "four",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03967276,
+      "mentions": [
+        {
+          "text": {
+            "content": "four",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Milo",
+      "type": "PERSON",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Milo_Manheim",
+        "mid": "/m/0lmck_t"
+      },
+      "salience": 0.031172449,
+      "mentions": [
+        {
+          "text": {
+            "content": "Milo",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin",
+      "type": "OTHER",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pumpkin",
+        "mid": "/m/05zsy"
+      },
+      "salience": 0.025009334,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pumpkin",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,56 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "He is around 6-7 years old Good guard dog and freindly to human Spayed and vaccinated Jackie Lee",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "guard dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.93649876,
+      "mentions": [
+        {
+          "text": {
+            "content": "guard dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Jackie Lee",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/012gbp15",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jackie_Lee_(country_singer)"
+      },
+      "salience": 0.06350121,
+      "mentions": [
+        {
+          "text": {
+            "content": "Jackie Lee",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

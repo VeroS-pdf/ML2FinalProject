@@ -1,0 +1,385 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "tom is a stray cat,my friend found him on the side road after being hit and run by a vehicle, she did sent him to vet, the doc said that his organ and some of the bone punctured on his lung.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "causing him having difficulty to breathed.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "unless if he undergone some operation.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "but right now, he's getting better, but i don't know about the inner injuries.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    },
+    {
+      "text": {
+        "content": "we can't afford the operation since we still a student.. the doctor said that the operation cost RM, we don't know how bad his injuries is, since the cat always sleep and eat like other normal cat.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "doc",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.55534536,
+      "mentions": [
+        {
+          "text": {
+            "content": "doc",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tom",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.1882831,
+      "mentions": [
+        {
+          "text": {
+            "content": "tom",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "friend",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.09394137,
+      "mentions": [
+        {
+          "text": {
+            "content": "friend",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "side road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.043031976,
+      "mentions": [
+        {
+          "text": {
+            "content": "side road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vehicle",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.016744887,
+      "mentions": [
+        {
+          "text": {
+            "content": "vehicle",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vet",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.016744887,
+      "mentions": [
+        {
+          "text": {
+            "content": "vet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "some",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.012909629,
+      "mentions": [
+        {
+          "text": {
+            "content": "some",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "organ",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011356736,
+      "mentions": [
+        {
+          "text": {
+            "content": "organ",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bone",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011356736,
+      "mentions": [
+        {
+          "text": {
+            "content": "bone",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "lung",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011356736,
+      "mentions": [
+        {
+          "text": {
+            "content": "lung",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "operation",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0068805325,
+      "mentions": [
+        {
+          "text": {
+            "content": "operation",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "difficulty",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.005546371,
+      "mentions": [
+        {
+          "text": {
+            "content": "difficulty",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.005353224,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "operation cost",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0037969926,
+      "mentions": [
+        {
+          "text": {
+            "content": "operation cost",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "injuries",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0036392775,
+      "mentions": [
+        {
+          "text": {
+            "content": "injuries",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "doctor",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0035275104,
+      "mentions": [
+        {
+          "text": {
+            "content": "doctor",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0033184472,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "operation",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0020807895,
+      "mentions": [
+        {
+          "text": {
+            "content": "operation",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "injuries",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.001903229,
+      "mentions": [
+        {
+          "text": {
+            "content": "injuries",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "student",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.00166729,
+      "mentions": [
+        {
+          "text": {
+            "content": "student",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "RM",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0012148975,
+      "mentions": [
+        {
+          "text": {
+            "content": "RM",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

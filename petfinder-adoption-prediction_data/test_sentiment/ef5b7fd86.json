@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Kindly drop me a message at fb &quot;Nova Ngeow&quot; if you do not have a petfinder account",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "message",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.55875313,
+      "mentions": [
+        {
+          "text": {
+            "content": "message",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Nova Ngeow",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.24288481,
+      "mentions": [
+        {
+          "text": {
+            "content": "Nova Ngeow",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "account",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.19836202,
+      "mentions": [
+        {
+          "text": {
+            "content": "account",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": -0.3
+  },
+  "language": "en",
+  "categories": []
+}

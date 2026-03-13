@@ -1,0 +1,319 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Dog's Name: Piky Breed: Cross between Husky and Pit Bull Birth Date: Nov Colour: Grey Date spayed: 11th Dec Place spayed: Pejabat Veterinary, Pulau Pinang Comment: Very active, playful and smart.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Highly trainable.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Piky is a healthy, good-looking, spayed female dog with good temperament Reason To Give Away: Owner's age is already 67 years and physically not fit to handle and to cope with its growing-up size.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    },
+    {
+      "text": {
+        "content": "It is a pity if Piky cannot come under a better master than myself, it cannot achieve its optimum performance.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Piky Breed: Cross",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.7790716,
+      "mentions": [
+        {
+          "text": {
+            "content": "Name",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Piky Breed: Cross",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Piky",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "pity",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Piky",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Dog",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/0bt9lr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+      },
+      "salience": 0.042948116,
+      "mentions": [
+        {
+          "text": {
+            "content": "Dog",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Pit Bull Birth Date",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.042948116,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pit Bull Birth Date",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Husky",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/071jj",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Siberian_Husky"
+      },
+      "salience": 0.037931025,
+      "mentions": [
+        {
+          "text": {
+            "content": "Husky",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Place",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02462756,
+      "mentions": [
+        {
+          "text": {
+            "content": "Place",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Pejabat Veterinary",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009967212,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pejabat Veterinary",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Pulau Pinang Comment",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.009967212,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pulau Pinang Comment",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.00900111,
+      "mentions": [
+        {
+          "text": {
+            "content": "age",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Reason",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0074947993,
+      "mentions": [
+        {
+          "text": {
+            "content": "Reason",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "temperament",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0074947993,
+      "mentions": [
+        {
+          "text": {
+            "content": "temperament",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Away",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0074947993,
+      "mentions": [
+        {
+          "text": {
+            "content": "Away",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0074947993,
+      "mentions": [
+        {
+          "text": {
+            "content": "Owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0056569334,
+      "mentions": [
+        {
+          "text": {
+            "content": "size",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "master",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0039509498,
+      "mentions": [
+        {
+          "text": {
+            "content": "master",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "performance",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0039509498,
+      "mentions": [
+        {
+          "text": {
+            "content": "performance",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.4,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

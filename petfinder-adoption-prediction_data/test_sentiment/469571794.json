@@ -1,0 +1,163 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "牠们的狗妈妈是附近工厂放出来而变成流浪狗。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "后来狗妈妈怀孕了，我们就做好心照顾狗宝宝和帮助牠们寻找愿意领养牠们的人，让牠们有一个温暖的家与关怀。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    },
+    {
+      "text": {
+        "content": "非常感谢大家。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "流浪狗",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.30598032,
+      "mentions": [
+        {
+          "text": {
+            "content": "流浪狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "狗妈妈",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.29811287,
+      "mentions": [
+        {
+          "text": {
+            "content": "狗妈妈",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "附近工厂",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.19642478,
+      "mentions": [
+        {
+          "text": {
+            "content": "附近工厂",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06461217,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "妈妈",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.04249729,
+      "mentions": [
+        {
+          "text": {
+            "content": "妈妈",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "心照顾狗宝宝",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.041369867,
+      "mentions": [
+        {
+          "text": {
+            "content": "心照顾狗宝宝",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "家",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.026770988,
+      "mentions": [
+        {
+          "text": {
+            "content": "家",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "关怀",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.024231693,
+      "mentions": [
+        {
+          "text": {
+            "content": "关怀",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.9,
+    "score": 0.3
+  },
+  "language": "zh",
+  "categories": []
+}

@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "If you wish to adopt Millie, please call Carol",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Millie",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.66472316,
+      "mentions": [
+        {
+          "text": {
+            "content": "Millie",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Carol",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.33527684,
+      "mentions": [
+        {
+          "text": {
+            "content": "Carol",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

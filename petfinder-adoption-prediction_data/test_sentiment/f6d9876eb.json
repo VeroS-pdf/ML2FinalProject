@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Very shy type n friendly",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "type",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.57833356,
+      "mentions": [
+        {
+          "text": {
+            "content": "type",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "friendly",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.42166644,
+      "mentions": [
+        {
+          "text": {
+            "content": "friendly",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

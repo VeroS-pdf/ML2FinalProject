@@ -1,0 +1,453 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "These little friendly and playful kittens are looking for a new home!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "ONLY 4 KITTENS LEFT There are 2 sets of kittens, from different mothers.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "One set are about 3 months, the other set is 4 months.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Mix of M/F I'm not sure how to tell please call Erin,- PICK UP IN SUBANG JAYA (HOUSING AREA NEAR SUBANG PARADE) Do not call if you are not serious about adopting.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    },
+    {
+      "text": {
+        "content": "KITTEN#1 : White, with dark tail/ears and blue eyes (ala siamese) 4 months old, the tail is really bushy and full, like the mother.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "KITTEN#3 : Black/stripe with white paws, 4 months old KITTEN#2: Dark Calico/mixed-stripe multi colors 3 month KITTEN#8: Light/faded calico/mixed-stripe multi colors 3 months.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "kittens",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.22100666,
+      "mentions": [
+        {
+          "text": {
+            "content": "kittens",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.14968279,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "KITTENS",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.11898318,
+      "mentions": [
+        {
+          "text": {
+            "content": "KITTENS",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sets",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07222876,
+      "mentions": [
+        {
+          "text": {
+            "content": "sets",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "KITTEN",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0718061,
+      "mentions": [
+        {
+          "text": {
+            "content": "KITTEN",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "KITTEN",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kittens",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.044099577,
+      "mentions": [
+        {
+          "text": {
+            "content": "kittens",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "SUBANG PARADE",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0clx8x",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Subang_Parade"
+      },
+      "salience": 0.043068606,
+      "mentions": [
+        {
+          "text": {
+            "content": "SUBANG PARADE",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "HOUSING AREA",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03863816,
+      "mentions": [
+        {
+          "text": {
+            "content": "set",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mothers",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.03235998,
+      "mentions": [
+        {
+          "text": {
+            "content": "mothers",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.031426664,
+      "mentions": [
+        {
+          "text": {
+            "content": "set",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tail",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020132188,
+      "mentions": [
+        {
+          "text": {
+            "content": "tail",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Mix",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.019096818,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mix",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017697245,
+      "mentions": [
+        {
+          "text": {
+            "content": "eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ears",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017697245,
+      "mentions": [
+        {
+          "text": {
+            "content": "ears",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "stripe",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01661428,
+      "mentions": [
+        {
+          "text": {
+            "content": "stripe",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "paws",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01332373,
+      "mentions": [
+        {
+          "text": {
+            "content": "paws",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "SUBANG JAYA",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Subang_Jaya",
+        "mid": "/m/054t4_"
+      },
+      "salience": 0.011454398,
+      "mentions": [
+        {
+          "text": {
+            "content": "SUBANG JAYA",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Erin",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0113147795,
+      "mentions": [
+        {
+          "text": {
+            "content": "Erin",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "colors",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010625192,
+      "mentions": [
+        {
+          "text": {
+            "content": "colors",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "colors",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010625192,
+      "mentions": [
+        {
+          "text": {
+            "content": "colors",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tail",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008029833,
+      "mentions": [
+        {
+          "text": {
+            "content": "tail",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Dark Calico",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.00788703,
+      "mentions": [
+        {
+          "text": {
+            "content": "Dark Calico",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "mother",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0066786497,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Light",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.005522942,
+      "mentions": [
+        {
+          "text": {
+            "content": "Light",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.8,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

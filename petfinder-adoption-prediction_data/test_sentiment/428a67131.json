@@ -1,0 +1,165 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "She was rescued within a colony that lives nearby the main road in Lebuh Ampang that needs medical tretment.We are not able to release her to the colony for her safety.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    },
+    {
+      "text": {
+        "content": "She is now healthy but pregnant.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "PLEASE ANYONE, KINDLY ADOPT THIS LOVELY CAT",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "colony",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5236314,
+      "mentions": [
+        {
+          "text": {
+            "content": "colony",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.27820274,
+      "mentions": [
+        {
+          "text": {
+            "content": "road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "colony",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.061485343,
+      "mentions": [
+        {
+          "text": {
+            "content": "colony",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tretment.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.049847938,
+      "mentions": [
+        {
+          "text": {
+            "content": "tretment.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Lebuh Ampang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/1tgcjt2_"
+      },
+      "salience": 0.034837622,
+      "mentions": [
+        {
+          "text": {
+            "content": "Lebuh Ampang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "ANYONE",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.019837242,
+      "mentions": [
+        {
+          "text": {
+            "content": "ANYONE",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "safety",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01823594,
+      "mentions": [
+        {
+          "text": {
+            "content": "safety",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "CAT",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013921789,
+      "mentions": [
+        {
+          "text": {
+            "content": "CAT",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

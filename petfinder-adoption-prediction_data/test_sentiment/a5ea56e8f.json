@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "☻ A healthy home cat ☻ Litter box &amp; Smart Sift trained ☻ Already vaccinated for second time ☻ Medical card will be provided ☻ Kindly Whatsapp/Wechat me if you're interested",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.32346752,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.32346752,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Litter box",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13686603,
+      "mentions": [
+        {
+          "text": {
+            "content": "Litter box",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08809926,
+      "mentions": [
+        {
+          "text": {
+            "content": "card",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Smart Sift",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/g/11fd4r_r4z"
+      },
+      "salience": 0.05700364,
+      "mentions": [
+        {
+          "text": {
+            "content": "Smart Sift",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Whatsapp",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "mid": "/m/0gwzvs1",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+      },
+      "salience": 0.040246643,
+      "mentions": [
+        {
+          "text": {
+            "content": "Whatsapp",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Wechat",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/WeChat",
+        "mid": "/m/0h_9v3h"
+      },
+      "salience": 0.030849356,
+      "mentions": [
+        {
+          "text": {
+            "content": "Wechat",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

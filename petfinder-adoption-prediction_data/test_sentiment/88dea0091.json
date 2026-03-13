@@ -1,0 +1,139 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Miley was found alone at Balakong Cheras road and was rescued immediately for her safety reason.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "She is approx 2 months old and healthy.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She knows sit and hand command too.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Miley",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/0bdxs5",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miley_Cyrus"
+      },
+      "salience": 0.66454846,
+      "mentions": [
+        {
+          "text": {
+            "content": "Miley",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.123617254,
+      "mentions": [
+        {
+          "text": {
+            "content": "road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "safety reason",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.086372845,
+      "mentions": [
+        {
+          "text": {
+            "content": "safety reason",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Balakong Cheras",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Balakong",
+        "mid": "/m/0ftqbh"
+      },
+      "salience": 0.075260766,
+      "mentions": [
+        {
+          "text": {
+            "content": "Balakong Cheras",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "sit",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.029472984,
+      "mentions": [
+        {
+          "text": {
+            "content": "sit",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "hand command",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020727664,
+      "mentions": [
+        {
+          "text": {
+            "content": "hand command",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

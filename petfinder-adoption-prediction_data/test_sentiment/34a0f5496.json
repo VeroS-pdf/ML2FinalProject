@@ -1,0 +1,296 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "This dog was given up by his owner due to a curved penis.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "We suspect his owner wanted to use him for breeding purposes and this deformity caused him to suffer losses thus he does not want the dog.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    },
+    {
+      "text": {
+        "content": "Those interested can visit the dog at the following location: Angsana Veterinary Clinic 31 A, Medan Angsana, Bandar Baru Air Itam, Penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Contact Number: Consultation Hours: Monday to Friday: 9:00 am to pm / 2:00 pm to 6:30 pm Saturday: 9:30 am to 5:00 pm Closed on Sunday and Public Holidays",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.4925439,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "penis",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13759187,
+      "mentions": [
+        {
+          "text": {
+            "content": "penis",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13451558,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "deformity",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05803093,
+      "mentions": [
+        {
+          "text": {
+            "content": "deformity",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.029073212,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "breeding purposes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02650618,
+      "mentions": [
+        {
+          "text": {
+            "content": "breeding purposes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.022363191,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.018084154,
+      "mentions": [
+        {
+          "text": {
+            "content": "location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "losses",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017953452,
+      "mentions": [
+        {
+          "text": {
+            "content": "losses",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Contact Number",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.016545072,
+      "mentions": [
+        {
+          "text": {
+            "content": "Contact Number",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Medan Angsana",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/g/1tdjm115"
+      },
+      "salience": 0.011199918,
+      "mentions": [
+        {
+          "text": {
+            "content": "Medan Angsana",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Angsana Veterinary Clinic 31 A",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.010724468,
+      "mentions": [
+        {
+          "text": {
+            "content": "Angsana Veterinary Clinic 31 A",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Bandar Baru Air Itam",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim",
+        "mid": "/m/03d0nvs"
+      },
+      "salience": 0.009843098,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bandar Baru Air Itam",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Penang",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/George_Town,_Penang",
+        "mid": "/m/015806"
+      },
+      "salience": 0.009843098,
+      "mentions": [
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Public Holidays",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/09gqnmd",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Public_holiday"
+      },
+      "salience": 0.0051818625,
+      "mentions": [
+        {
+          "text": {
+            "content": "Public Holidays",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.4,
+    "score": -0.2
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,186 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Koko is a very affectionate, playful,energetic Chi with a moderate apetite.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "He loves to go on evening walks and is very well behaved with other dogs.He is now looking for a new loving family as his present (expat) family is leaving Malaysia.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Chi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.73980004,
+      "mentions": [
+        {
+          "text": {
+            "content": "Chi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Koko",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.109998286,
+      "mentions": [
+        {
+          "text": {
+            "content": "Koko",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "apetite",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.041919556,
+      "mentions": [
+        {
+          "text": {
+            "content": "apetite",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "evening walks",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020718077,
+      "mentions": [
+        {
+          "text": {
+            "content": "evening walks",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dogs.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.019033773,
+      "mentions": [
+        {
+          "text": {
+            "content": "dogs.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "family",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.016363095,
+      "mentions": [
+        {
+          "text": {
+            "content": "family",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "present",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014394424,
+      "mentions": [
+        {
+          "text": {
+            "content": "present",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "expat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014394424,
+      "mentions": [
+        {
+          "text": {
+            "content": "expat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/09pmkv",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+      },
+      "salience": 0.011883144,
+      "mentions": [
+        {
+          "text": {
+            "content": "Malaysia",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "family",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.011495209,
+      "mentions": [
+        {
+          "text": {
+            "content": "family",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0.7
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Persian female high nose Owner need to neuter her beautiful and nice temperament Location in Petaling jaya Whatapp me",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.5022695,
+      "mentions": [
+        {
+          "text": {
+            "content": "Owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Persian",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/032f6",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_language"
+      },
+      "salience": 0.3336057,
+      "mentions": [
+        {
+          "text": {
+            "content": "Persian",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Petaling jaya",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03dqts",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+      },
+      "salience": 0.066927336,
+      "mentions": [
+        {
+          "text": {
+            "content": "Petaling jaya",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "temperament Location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.04998817,
+      "mentions": [
+        {
+          "text": {
+            "content": "temperament Location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Whatapp",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.04720929,
+      "mentions": [
+        {
+          "text": {
+            "content": "Whatapp",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.7,
+    "score": 0.7
+  },
+  "language": "en",
+  "categories": []
+}

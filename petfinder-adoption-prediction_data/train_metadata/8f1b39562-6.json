@@ -1,0 +1,128 @@
+{
+    "labelAnnotations": [
+        {
+            "mid": "/m/07s6nbt",
+            "description": "text",
+            "score": 0.9049256,
+            "topicality": 0.9049256
+        },
+        {
+            "mid": "/m/02n3pb",
+            "description": "product",
+            "score": 0.7632821,
+            "topicality": 0.7632821
+        },
+        {
+            "mid": "/m/01jwgf",
+            "description": "product",
+            "score": 0.7449368,
+            "topicality": 0.7449368
+        },
+        {
+            "mid": "/m/03gq5hm",
+            "description": "font",
+            "score": 0.55407226,
+            "topicality": 0.55407226
+        },
+        {
+            "mid": "/m/0641k",
+            "description": "paper",
+            "score": 0.50637656,
+            "topicality": 0.50637656
+        }
+    ],
+    "textAnnotations": [
+        {
+            "locale": "en",
+            "description": "PET\nVACCINATION\nCERTIFICATE\nColor\n",
+            "boundingPoly": {
+                "vertices": [
+                    {
+                        "x": 105,
+                        "y": 139
+                    },
+                    {
+                        "x": 177,
+                        "y": 139
+                    },
+                    {
+                        "x": 177,
+                        "y": 287
+                    },
+                    {
+                        "x": 105,
+                        "y": 287
+                    }
+                ]
+            }
+        }
+    ],
+    "imagePropertiesAnnotation": {
+        "dominantColors": {
+            "colors": [
+                {
+                    "color": {
+                        "red": 194,
+                        "green": 196,
+                        "blue": 200
+                    },
+                    "score": 0.35474017,
+                    "pixelFraction": 0.019086022
+                },
+                {
+                    "color": {
+                        "red": 154,
+                        "green": 156,
+                        "blue": 162
+                    },
+                    "score": 0.305858,
+                    "pixelFraction": 0.0056451615
+                },
+                {
+                    "color": {
+                        "red": 233,
+                        "green": 234,
+                        "blue": 237
+                    },
+                    "score": 0.23251505,
+                    "pixelFraction": 0.97392476
+                },
+                {
+                    "color": {
+                        "red": 122,
+                        "green": 125,
+                        "blue": 130
+                    },
+                    "score": 0.1068868,
+                    "pixelFraction": 0.001344086
+                }
+            ]
+        }
+    },
+    "cropHintsAnnotation": {
+        "cropHints": [
+            {
+                "boundingPoly": {
+                    "vertices": [
+                        {
+                            "x": 16
+                        },
+                        {
+                            "x": 255
+                        },
+                        {
+                            "x": 255,
+                            "y": 247
+                        },
+                        {
+                            "x": 16,
+                            "y": 247
+                        }
+                    ]
+                },
+                "confidence": 0.79999995,
+                "importanceFraction": 0.97999996
+            }
+        ]
+    }
+}

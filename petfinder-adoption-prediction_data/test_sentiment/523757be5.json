@@ -1,0 +1,191 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": ".:he is now in GlobalPets Taman U,Johor:. .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": ":be taking care from us,GlobalPets stuff, since before Chinese New Year:. .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": ":been given green light from the bos to re-home this charming Kelabu and very MANJA:.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "GlobalPets Taman U",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.23686454,
+      "mentions": [
+        {
+          "text": {
+            "content": "GlobalPets Taman U",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "GlobalPets",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Johor",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/01jng9",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Johor"
+      },
+      "salience": 0.21059857,
+      "mentions": [
+        {
+          "text": {
+            "content": "Johor",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "stuff",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13687749,
+      "mentions": [
+        {
+          "text": {
+            "content": "stuff",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "care",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13523777,
+      "mentions": [
+        {
+          "text": {
+            "content": "care",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bos",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08190992,
+      "mentions": [
+        {
+          "text": {
+            "content": "bos",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Chinese New Year",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/012m47",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chinese_New_Year"
+      },
+      "salience": 0.06473205,
+      "mentions": [
+        {
+          "text": {
+            "content": "Chinese New Year",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "MANJA",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.057530344,
+      "mentions": [
+        {
+          "text": {
+            "content": "MANJA",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Kelabu",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.048643846,
+      "mentions": [
+        {
+          "text": {
+            "content": "Kelabu",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "light",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.027605476,
+      "mentions": [
+        {
+          "text": {
+            "content": "light",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

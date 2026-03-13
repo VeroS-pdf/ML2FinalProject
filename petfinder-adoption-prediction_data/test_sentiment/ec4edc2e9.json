@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "adorable, playful Kittie, was found at the balcony of our house in the rainy day, that time it was less even than one month, too skinny and looked pathetic. he was staying with us already 3 weeks, gain weight and behave more self-dependance, ready for adoption.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Kittie",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/01_l7n",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kittie"
+      },
+      "salience": 0.509709,
+      "mentions": [
+        {
+          "text": {
+            "content": "Kittie",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "balcony",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.15421751,
+      "mentions": [
+        {
+          "text": {
+            "content": "balcony",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.15421751,
+      "mentions": [
+        {
+          "text": {
+            "content": "house",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "weight",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.075368345,
+      "mentions": [
+        {
+          "text": {
+            "content": "weight",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "self-dependance",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.053243823,
+      "mentions": [
+        {
+          "text": {
+            "content": "self-dependance",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.053243823,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": -0.4
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Introducing M &amp; M who my neighbor, Mr. Brandon rescued but can't keep.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "They are up for adoption, so if you are interested please don't hesitate to let him know. :)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Brandon",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.6429218,
+      "mentions": [
+        {
+          "text": {
+            "content": "neighbor",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Brandon",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Mr.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "M & M",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.31182113,
+      "mentions": [
+        {
+          "text": {
+            "content": "M &amp; M",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.045257077,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.8,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

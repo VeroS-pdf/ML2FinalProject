@@ -1,0 +1,163 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "I want to re-home 1 female mix mainecoon for FREE but new owner MUST spay her first.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Please WhatsApp Anis at.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Self-pick up at Putra Perdana, Puchong.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "NOTE: Please bring your own carrier.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "mainecoon",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.40388948,
+      "mentions": [
+        {
+          "text": {
+            "content": "mainecoon",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.2782887,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "NOTE",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.09542688,
+      "mentions": [
+        {
+          "text": {
+            "content": "NOTE",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp Anis",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.082446866,
+      "mentions": [
+        {
+          "text": {
+            "content": "WhatsApp Anis",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "carrier",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.057945922,
+      "mentions": [
+        {
+          "text": {
+            "content": "carrier",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Puchong",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0cxff7",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Puchong"
+      },
+      "salience": 0.056930263,
+      "mentions": [
+        {
+          "text": {
+            "content": "Puchong",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Putra Perdana",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/1v2gb7x9"
+      },
+      "salience": 0.025071882,
+      "mentions": [
+        {
+          "text": {
+            "content": "Putra Perdana",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.7,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

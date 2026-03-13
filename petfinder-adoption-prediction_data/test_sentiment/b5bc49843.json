@@ -1,0 +1,166 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Muachi,Kimchi and Hachi need a forever home.They are healthy and friendly puppies.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Please contact(Ms Chan-Puchong) if you can give them a forever home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Thanks.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "puppies",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.32882705,
+      "mentions": [
+        {
+          "text": {
+            "content": "puppies",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Muachi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.19352229,
+      "mentions": [
+        {
+          "text": {
+            "content": "Muachi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Kimchi",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "mid": "/m/018dz_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kimchi"
+      },
+      "salience": 0.19352229,
+      "mentions": [
+        {
+          "text": {
+            "content": "Kimchi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Hachi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.19352229,
+      "mentions": [
+        {
+          "text": {
+            "content": "Hachi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Ms",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.04011202,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ms",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.021329628,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Thanks",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.021224422,
+      "mentions": [
+        {
+          "text": {
+            "content": "Thanks",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Chan-Puchong",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0079400055,
+      "mentions": [
+        {
+          "text": {
+            "content": "Chan-Puchong",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.2,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

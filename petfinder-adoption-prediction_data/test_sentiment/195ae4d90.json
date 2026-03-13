@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Adoption fees for pet rescue centre.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Pls WA if keen to arrange meeting.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Adoption fees",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.647536,
+      "mentions": [
+        {
+          "text": {
+            "content": "Adoption fees",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pet rescue centre",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2143587,
+      "mentions": [
+        {
+          "text": {
+            "content": "pet rescue centre",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "meeting",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.07713405,
+      "mentions": [
+        {
+          "text": {
+            "content": "meeting",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "WA",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/081yw",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_(state)"
+      },
+      "salience": 0.060971264,
+      "mentions": [
+        {
+          "text": {
+            "content": "WA",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

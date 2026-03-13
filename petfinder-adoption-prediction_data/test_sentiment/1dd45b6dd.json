@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Dark Tortoise Shell.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Lively and Loving.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Dark Tortoise Shell",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.89726925,
+      "mentions": [
+        {
+          "text": {
+            "content": "Dark Tortoise Shell",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Loving",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.10273073,
+      "mentions": [
+        {
+          "text": {
+            "content": "Loving",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

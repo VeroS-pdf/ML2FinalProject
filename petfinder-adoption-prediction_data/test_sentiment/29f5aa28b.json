@@ -1,0 +1,145 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Pirate - have one black spot on left eye, very cute Jack - very playful, like Jack in the movie Eight Below Maya - got big black spot on her nose JoJo - very playful and hard to catch her, like to pretend didn't hear us when we call her",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "black spot",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.3498207,
+      "mentions": [
+        {
+          "text": {
+            "content": "black spot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Eight Below Maya",
+      "type": "WORK_OF_ART",
+      "metadata": {
+        "mid": "/m/07yp01",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eight_Below"
+      },
+      "salience": 0.19248447,
+      "mentions": [
+        {
+          "text": {
+            "content": "movie",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Eight Below Maya",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Jack",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.13909082,
+      "mentions": [
+        {
+          "text": {
+            "content": "Jack",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Jack",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.12859991,
+      "mentions": [
+        {
+          "text": {
+            "content": "eye",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08198878,
+      "mentions": [
+        {
+          "text": {
+            "content": "nose",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "black spot",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.058974516,
+      "mentions": [
+        {
+          "text": {
+            "content": "black spot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "JoJo",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.049040806,
+      "mentions": [
+        {
+          "text": {
+            "content": "JoJo",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.5,
+    "score": -0.5
+  },
+  "language": "en",
+  "categories": []
+}

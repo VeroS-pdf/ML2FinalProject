@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "This is Katniss, she has been adopted by a lovely girl in Kelawei Road, Penang",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Katniss",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/069jpj",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagittaria"
+      },
+      "salience": 0.8830198,
+      "mentions": [
+        {
+          "text": {
+            "content": "Katniss",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Kelawei Road",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/11g07f307p",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kelawei_Road,_George_Town"
+      },
+      "salience": 0.047669172,
+      "mentions": [
+        {
+          "text": {
+            "content": "Kelawei Road",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "girl",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.035643205,
+      "mentions": [
+        {
+          "text": {
+            "content": "girl",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Penang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/015806",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/George_Town,_Penang"
+      },
+      "salience": 0.033667825,
+      "mentions": [
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

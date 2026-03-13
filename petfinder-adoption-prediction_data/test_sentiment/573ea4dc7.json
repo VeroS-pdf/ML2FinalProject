@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Female.mixed breed.2 mth.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Female.",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.84565455,
+      "mentions": [
+        {
+          "text": {
+            "content": "Female.",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "mth",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.15434544,
+      "mentions": [
+        {
+          "text": {
+            "content": "mth",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

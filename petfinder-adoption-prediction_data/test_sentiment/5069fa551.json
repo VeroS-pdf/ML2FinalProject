@@ -1,0 +1,41 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Does he look like &quot;Panda&quot;? He is very active and is fun to play with.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Panda",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "mid": "/m/03bj1",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Giant_panda"
+      },
+      "salience": 1,
+      "mentions": [
+        {
+          "text": {
+            "content": "Panda",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.7,
+    "score": 0.7
+  },
+  "language": "en",
+  "categories": []
+}

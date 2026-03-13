@@ -1,0 +1,257 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Bought my dog at a Pet Shop in Petaling Jaya.She's very playfull.Eat almost anything.She like to eat bread &amp; fruits.She seldom bark.But most of the time she just like to sleep &amp; dont bother even a cat or other dog walk in front of her.She dont like to be on leash.Fully indoor dog.No cage.Reason for me to send her for adoption bcos im shifting to other states &amp; travel often.Hopefully she will found a responsible,fully committed &amp; love animals owner.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.22786501,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Pet Shop",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pet_store",
+        "mid": "/m/054nwq"
+      },
+      "salience": 0.1285851,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pet Shop",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Petaling Jaya.",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03dqts",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+      },
+      "salience": 0.1285851,
+      "mentions": [
+        {
+          "text": {
+            "content": "Petaling Jaya.",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "bread",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.0835397,
+      "mentions": [
+        {
+          "text": {
+            "content": "bread",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.057527386,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog walk",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.057527386,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog walk",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "im",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.056836333,
+      "mentions": [
+        {
+          "text": {
+            "content": "im",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "front",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05285784,
+      "mentions": [
+        {
+          "text": {
+            "content": "front",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "her.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05285784,
+      "mentions": [
+        {
+          "text": {
+            "content": "her.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "states",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.03998915,
+      "mentions": [
+        {
+          "text": {
+            "content": "states",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "travel",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03998915,
+      "mentions": [
+        {
+          "text": {
+            "content": "travel",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "animals owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.028088504,
+      "mentions": [
+        {
+          "text": {
+            "content": "animals owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Reason",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017650219,
+      "mentions": [
+        {
+          "text": {
+            "content": "Reason",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017650219,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog.No",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/0bt9lr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+      },
+      "salience": 0.010451049,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog.No",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

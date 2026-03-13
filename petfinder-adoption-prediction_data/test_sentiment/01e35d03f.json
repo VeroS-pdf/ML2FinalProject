@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "lovely , lovely , lovely he is manager of love company ;)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "you will enjoy his friendly lovely presence better to adopt with any siblings",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "manager",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.45724428,
+      "mentions": [
+        {
+          "text": {
+            "content": "manager",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "love company",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.38946077,
+      "mentions": [
+        {
+          "text": {
+            "content": "love company",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.09493719,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "presence",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05835777,
+      "mentions": [
+        {
+          "text": {
+            "content": "presence",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.8,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

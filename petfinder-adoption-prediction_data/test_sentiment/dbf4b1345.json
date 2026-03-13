@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "A beagle that i safe from MBMB dog pound.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "Need a loving home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "beagle",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.77985907,
+      "mentions": [
+        {
+          "text": {
+            "content": "beagle",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog pound",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.111030035,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog pound",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "MBMB",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/06w84f1",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melaka_City_Council"
+      },
+      "salience": 0.07326508,
+      "mentions": [
+        {
+          "text": {
+            "content": "MBMB",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.035845824,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.2,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

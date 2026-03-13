@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Minyi the Cat was adopted by me since 30/9/. his owner Meowmy Lia have to go back to Indonesia since she is graduating from MMU.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Very friendly and active cat.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Minyi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.4621611,
+      "mentions": [
+        {
+          "text": {
+            "content": "Minyi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Meowmy Lia",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.27321815,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Meowmy Lia",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Cat",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/01yrx",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cat"
+      },
+      "salience": 0.17486942,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cat",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03ryn",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Indonesia"
+      },
+      "salience": 0.039863892,
+      "mentions": [
+        {
+          "text": {
+            "content": "Indonesia",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "MMU",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.030218303,
+      "mentions": [
+        {
+          "text": {
+            "content": "MMU",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.019669106,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

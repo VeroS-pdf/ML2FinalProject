@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Fennic as rescued at a petrol station.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Due to be neutered soon.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Fennic",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/06wv04",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Finnic_languages"
+      },
+      "salience": 0.65280575,
+      "mentions": [
+        {
+          "text": {
+            "content": "Fennic",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "petrol station",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.34719425,
+      "mentions": [
+        {
+          "text": {
+            "content": "petrol station",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.1,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,194 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Found these 2 pups alone in a parking lot injured and shivering on Christmas Eve.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Brought them to the Vet and they seem healthy and very well behaved.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Looking for some kind hearted individuals to show some holiday spirit and provide these 2 with a warm and loving home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "We can be contacted at (justin) (eliza) Thanks!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "pups",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.6407828,
+      "mentions": [
+        {
+          "text": {
+            "content": "pups",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "parking lot",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.2134268,
+      "mentions": [
+        {
+          "text": {
+            "content": "parking lot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Christmas Eve",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/01vq3",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christmas"
+      },
+      "salience": 0.053190034,
+      "mentions": [
+        {
+          "text": {
+            "content": "Christmas Eve",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "individuals",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.022799421,
+      "mentions": [
+        {
+          "text": {
+            "content": "individuals",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.020687658,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Vet",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/01hbsc",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Veterinary_physician"
+      },
+      "salience": 0.01758935,
+      "mentions": [
+        {
+          "text": {
+            "content": "Vet",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "holiday spirit",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014353926,
+      "mentions": [
+        {
+          "text": {
+            "content": "holiday spirit",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "justin",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.008585011,
+      "mentions": [
+        {
+          "text": {
+            "content": "justin",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "eliza",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.008585011,
+      "mentions": [
+        {
+          "text": {
+            "content": "eliza",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.2,
+    "score": 0.5
+  },
+  "language": "en",
+  "categories": []
+}

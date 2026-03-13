@@ -1,0 +1,409 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Tiger 虽然离开我，但是他找到下一站幸福家庭了！",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "谢谢Shelly!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "(^O^)/ Cat's characteristics: active and big eyes, charming. super good appetite. like to play rope, bite boxes, super love to make friends with the big cats.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Brought back from Penang, passing saw being bullied, and took him home.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": -0.7
+      }
+    },
+    {
+      "text": {
+        "content": "好动，眼珠很大，迷人。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "跟你熟悉后会主动来坐大腿，食欲超好，最爱绳子，箱子。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "可以自己一个人玩绳子，咬箱子，超爱跟大猫交朋友。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "从槟城带回来的，路过见到被人欺负，就把他带回家。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    },
+    {
+      "text": {
+        "content": "捉它的那一刻，非常怕人，如今情绪稳定，也开朗了，不怕人了。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Tiger",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.21997474,
+      "mentions": [
+        {
+          "text": {
+            "content": "Tiger",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "幸福",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.15845622,
+      "mentions": [
+        {
+          "text": {
+            "content": "幸福",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "家庭",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.15845622,
+      "mentions": [
+        {
+          "text": {
+            "content": "家庭",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "^O^",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.062347166,
+      "mentions": [
+        {
+          "text": {
+            "content": "^O^",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Cat's characteristics: active and big eyes",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.062347166,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cat's characteristics: active and big eyes",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "箱子",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.033360645,
+      "mentions": [
+        {
+          "text": {
+            "content": "箱子",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "绳子",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.028532382,
+      "mentions": [
+        {
+          "text": {
+            "content": "绳子",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "箱子",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.028532382,
+      "mentions": [
+        {
+          "text": {
+            "content": "箱子",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "passing saw being bullied",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.027019281,
+      "mentions": [
+        {
+          "text": {
+            "content": "passing saw being bullied",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.025348825,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "大猫",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/01yrx",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cat"
+      },
+      "salience": 0.02460222,
+      "mentions": [
+        {
+          "text": {
+            "content": "大猫",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "bite boxes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.022993533,
+      "mentions": [
+        {
+          "text": {
+            "content": "bite boxes",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "play rope",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.022993533,
+      "mentions": [
+        {
+          "text": {
+            "content": "play rope",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "槟城",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0g6xq",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+      },
+      "salience": 0.022937635,
+      "mentions": [
+        {
+          "text": {
+            "content": "槟城",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "朋友",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.020713171,
+      "mentions": [
+        {
+          "text": {
+            "content": "朋友",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "大腿",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020322004,
+      "mentions": [
+        {
+          "text": {
+            "content": "大腿",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "眼珠",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020235209,
+      "mentions": [
+        {
+          "text": {
+            "content": "眼珠",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "绳子",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.019498955,
+      "mentions": [
+        {
+          "text": {
+            "content": "绳子",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.012649807,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "情绪",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008678913,
+      "mentions": [
+        {
+          "text": {
+            "content": "情绪",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 6.9,
+    "score": 0.3
+  },
+  "language": "zh",
+  "categories": []
+}

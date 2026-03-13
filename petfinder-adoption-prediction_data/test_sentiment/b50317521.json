@@ -1,0 +1,234 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Messi was adopted in April at the age of 3 months.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Former owner was owner's cousin.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "April , adopted Shakira from Sarawak Society for the Prevetion of Cruelth to Animals (SSPCA).",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She's 1 year old at the time of adoption.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Shakira",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/01wj18h",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shakira"
+      },
+      "salience": 0.2329576,
+      "mentions": [
+        {
+          "text": {
+            "content": "Shakira",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Messi",
+      "type": "PERSON",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+        "mid": "/m/06qjgc"
+      },
+      "salience": 0.22239484,
+      "mentions": [
+        {
+          "text": {
+            "content": "Messi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "cousin",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.21980242,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "cousin",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.1463786,
+      "mentions": [
+        {
+          "text": {
+            "content": "age",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.05567192,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sarawak Society",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.026963163,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sarawak Society",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Prevetion",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.026963163,
+      "mentions": [
+        {
+          "text": {
+            "content": "Prevetion",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Cruelth",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.026963163,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cruelth",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.023995606,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Animals",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/0jbk",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Animal"
+      },
+      "salience": 0.008954756,
+      "mentions": [
+        {
+          "text": {
+            "content": "Animals",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "SSPCA",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.008954756,
+      "mentions": [
+        {
+          "text": {
+            "content": "SSPCA",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

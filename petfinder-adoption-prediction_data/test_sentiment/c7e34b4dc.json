@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "If interested, please contact All puppies are from the same litter as Boh, Chai, Kopi, Light and Mocha",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "litter",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2590016,
+      "mentions": [
+        {
+          "text": {
+            "content": "litter",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "puppies",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.25018722,
+      "mentions": [
+        {
+          "text": {
+            "content": "puppies",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Boh",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/072x4y",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bank_of_Hawaii"
+      },
+      "salience": 0.14460288,
+      "mentions": [
+        {
+          "text": {
+            "content": "Boh",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Kopi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.10989754,
+      "mentions": [
+        {
+          "text": {
+            "content": "Kopi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Light",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.10989754,
+      "mentions": [
+        {
+          "text": {
+            "content": "Light",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Mocha",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/06jdrl",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caffè_mocha"
+      },
+      "salience": 0.07751967,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mocha",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Chai",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.04889354,
+      "mentions": [
+        {
+          "text": {
+            "content": "Chai",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.5,
+    "score": -0.5
+  },
+  "language": "en",
+  "categories": []
+}

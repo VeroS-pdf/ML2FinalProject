@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "i found totoy(lil boy in filipino) in setapak pound,first i just foster him.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "but he is so loving and affectionate dog. he would not sleep inside the room without me inside.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "very active but even how busy he is if i call him he will come in seconds..",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "lil boy",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.74171424,
+      "mentions": [
+        {
+          "text": {
+            "content": "lil boy",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "filipino",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.11138957,
+      "mentions": [
+        {
+          "text": {
+            "content": "filipino",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "totoy",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0687031,
+      "mentions": [
+        {
+          "text": {
+            "content": "totoy",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "pound",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.044984594,
+      "mentions": [
+        {
+          "text": {
+            "content": "pound",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.019299256,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "room",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.013909255,
+      "mentions": [
+        {
+          "text": {
+            "content": "room",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.1,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

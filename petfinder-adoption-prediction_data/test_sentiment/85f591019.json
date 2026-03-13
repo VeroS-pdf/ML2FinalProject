@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "sometimes she walk like a horse.whn she poo,she wil take up her 2front leg(like kangaroo)..cute!!!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "she is my friend's doggy.she12let go as she wil go oversea soon.any1 intrested,plz drop me a meseg.tq!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "horse.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5239448,
+      "mentions": [
+        {
+          "text": {
+            "content": "horse.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "leg",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.16574384,
+      "mentions": [
+        {
+          "text": {
+            "content": "leg",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kangaroo",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.14712639,
+      "mentions": [
+        {
+          "text": {
+            "content": "kangaroo",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "friend",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06583595,
+      "mentions": [
+        {
+          "text": {
+            "content": "friend",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "any1",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.049762223,
+      "mentions": [
+        {
+          "text": {
+            "content": "any1",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "tq",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.034923702,
+      "mentions": [
+        {
+          "text": {
+            "content": "tq",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "doggy.she12let",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.01266307,
+      "mentions": [
+        {
+          "text": {
+            "content": "doggy.she12let",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

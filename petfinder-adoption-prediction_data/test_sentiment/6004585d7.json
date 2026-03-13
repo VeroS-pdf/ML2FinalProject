@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Puppy for adoption, female, Rawang area 菜菜女找家，万绕区",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/09lkz",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adoption"
+      },
+      "salience": 0.3951147,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "菜菜女找家",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.22339432,
+      "mentions": [
+        {
+          "text": {
+            "content": "菜菜女找家",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Rawang area",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21785574,
+      "mentions": [
+        {
+          "text": {
+            "content": "Rawang area",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "female",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/02zsn",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Female"
+      },
+      "salience": 0.16363527,
+      "mentions": [
+        {
+          "text": {
+            "content": "female",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.4,
+    "score": 0.4
+  },
+  "language": "zh",
+  "categories": []
+}

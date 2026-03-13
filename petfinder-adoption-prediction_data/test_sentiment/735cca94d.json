@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Playful little furballs.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Yuba is brown mixed with some white at her feet while Mochi is fully brown just like his mom.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "furballs",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.6796876,
+      "mentions": [
+        {
+          "text": {
+            "content": "furballs",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Yuba",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.10707254,
+      "mentions": [
+        {
+          "text": {
+            "content": "Yuba",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "feet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.094728805,
+      "mentions": [
+        {
+          "text": {
+            "content": "feet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Mochi",
+      "type": "CONSUMER_GOOD",
+      "metadata": {
+        "mid": "/m/012y0l",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mochi"
+      },
+      "salience": 0.0678878,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mochi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "mom",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.050623257,
+      "mentions": [
+        {
+          "text": {
+            "content": "mom",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.5,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

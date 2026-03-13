@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "cute female kitty do contact me (i-City,section 7,shah alam)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "kitty",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.7727138,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitty",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "i-City",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/05znfk9",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/I-City"
+      },
+      "salience": 0.10770193,
+      "mentions": [
+        {
+          "text": {
+            "content": "i-City",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "section",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.061489012,
+      "mentions": [
+        {
+          "text": {
+            "content": "section",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "shah alam",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/0syrf",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shah_Alam"
+      },
+      "salience": 0.058095265,
+      "mentions": [
+        {
+          "text": {
+            "content": "shah alam",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

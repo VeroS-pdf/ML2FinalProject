@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Please contacts Ms Eliene for adoption info",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Eliene",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.53976566,
+      "mentions": [
+        {
+          "text": {
+            "content": "Eliene",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ms",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "contacts",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.3046459,
+      "mentions": [
+        {
+          "text": {
+            "content": "contacts",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption info",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.15558845,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption info",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

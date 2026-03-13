@@ -1,0 +1,56 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "I bought the Pomeranian, hes been with me for 4 months, hes jolly friendly.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "hes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.63709366,
+      "mentions": [
+        {
+          "text": {
+            "content": "hes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Pomeranian",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/016wfy",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pomeranian_(dog)"
+      },
+      "salience": 0.36290634,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pomeranian",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

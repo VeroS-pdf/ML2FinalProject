@@ -1,0 +1,55 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Found wandering under the rain around Ukay Heights on Jan 17.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "rain",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.62758356,
+      "mentions": [
+        {
+          "text": {
+            "content": "rain",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Ukay Heights",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/1tgj6b8n"
+      },
+      "salience": 0.37241647,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ukay Heights",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,585 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "there are these 4 cute little pupz need adoption...plz help...may god bless u...dey r bhind my houz at my uni..currently im feeding them wif wat i got...but as im still studyin..it is hard for me to keep it on...plss help adopt this pupz,as they need love,home,food and care....and im sure they will be a gud companion and a gud watch dog as well.....msg me prvt 4 more detail....dey r curently healthy and with minor injuries....hope to get gud respond asap...!!!!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Hero(white) -tame -can be good watch dog as it is very alert and gives quick response.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Leader(brown with black nose) -tame -playfull -very alert -loves to be the first(datz y i name it leader) Browny(fully brown) -shy type -cute &amp; adorable -playfull Pichu(fat white pup) -very cute -playfull -alert too all of dem are very playfull and very alert too.they can be good watch dogs,as i know,because i've been raising dogs since pups for past 7 years.i know how they behave and how it will be in future if we care for them well.currently they have learn to come to my whistle sound although they are very far.(good alertness)They are just 2-3 weeks old and showing good progress.if sumone can be kind to adopt it,it might can have a proper life with love,or no it will be sad to leav dem just like that.. :(",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Pichu",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/07319r",
+        "wikipedia_url": "https://it.wikipedia.org/wiki/Pichu"
+      },
+      "salience": 0.09800531,
+      "mentions": [
+        {
+          "text": {
+            "content": "Pichu",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "pup",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.085760415,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "uni",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.085760415,
+      "mentions": [
+        {
+          "text": {
+            "content": "uni",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "houz",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.085760415,
+      "mentions": [
+        {
+          "text": {
+            "content": "houz",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "help",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08372267,
+      "mentions": [
+        {
+          "text": {
+            "content": "help",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "im",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0619193,
+      "mentions": [
+        {
+          "text": {
+            "content": "im",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sumone",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.050678514,
+      "mentions": [
+        {
+          "text": {
+            "content": "sumone",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "kind",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pupz",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.032903552,
+      "mentions": [
+        {
+          "text": {
+            "content": "pupz",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.032903552,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.032903552,
+      "mentions": [
+        {
+          "text": {
+            "content": "food",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "care",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.032903552,
+      "mentions": [
+        {
+          "text": {
+            "content": "care",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "love",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.031931102,
+      "mentions": [
+        {
+          "text": {
+            "content": "love",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "companion",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.027395401,
+      "mentions": [
+        {
+          "text": {
+            "content": "companion",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "watch dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.025315497,
+      "mentions": [
+        {
+          "text": {
+            "content": "watch dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pups",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.025311928,
+      "mentions": [
+        {
+          "text": {
+            "content": "pups",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "injuries",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.022251904,
+      "mentions": [
+        {
+          "text": {
+            "content": "injuries",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "detail",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.022251904,
+      "mentions": [
+        {
+          "text": {
+            "content": "detail",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "watch dogs",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.019720288,
+      "mentions": [
+        {
+          "text": {
+            "content": "watch dogs",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "watch dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.015191057,
+      "mentions": [
+        {
+          "text": {
+            "content": "watch dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Leader",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.012269683,
+      "mentions": [
+        {
+          "text": {
+            "content": "Leader",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "datz yi name",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.012188305,
+      "mentions": [
+        {
+          "text": {
+            "content": "datz y i name",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "leader",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.011259257,
+      "mentions": [
+        {
+          "text": {
+            "content": "leader",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010780019,
+      "mentions": [
+        {
+          "text": {
+            "content": "nose",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.010701596,
+      "mentions": [
+        {
+          "text": {
+            "content": "Hero",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Browny",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009891924,
+      "mentions": [
+        {
+          "text": {
+            "content": "Browny",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "all",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009891924,
+      "mentions": [
+        {
+          "text": {
+            "content": "all",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "alertness",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.009305103,
+      "mentions": [
+        {
+          "text": {
+            "content": "alertness",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "response",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008268068,
+      "mentions": [
+        {
+          "text": {
+            "content": "response",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "whistle sound",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0074565345,
+      "mentions": [
+        {
+          "text": {
+            "content": "whistle sound",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "love",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.005942632,
+      "mentions": [
+        {
+          "text": {
+            "content": "love",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "life",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0051561883,
+      "mentions": [
+        {
+          "text": {
+            "content": "life",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "too.",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.004131998,
+      "mentions": [
+        {
+          "text": {
+            "content": "too.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dem",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0037236004,
+      "mentions": [
+        {
+          "text": {
+            "content": "dem",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dogs",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0037236004,
+      "mentions": [
+        {
+          "text": {
+            "content": "dogs",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "progress.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0027192188,
+      "mentions": [
+        {
+          "text": {
+            "content": "progress.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

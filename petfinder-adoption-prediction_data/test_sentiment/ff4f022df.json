@@ -1,0 +1,333 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Bernice is a rare creature---an honest, ethical politicat!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    },
+    {
+      "text": {
+        "content": "(She's named after Bernie Sanders, after all.)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Young Bernice was a bit inattentive one day on the campaign trail, though, and she had an unfortunate interaction with a car or moto that left her with a broken hind leg.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    },
+    {
+      "text": {
+        "content": "A kind rescuer scooped her up and brought her to the vet, and now, after surgery, her leg is fine.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "She'll be vaccinated and spayed shortly, as well.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Can you provide a safe and loving home for this little sweetheart?",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "If so, please contact Aravind at .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Young Bernice",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.63361883,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bernice",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Young Bernice",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "creature",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.12331895,
+      "mentions": [
+        {
+          "text": {
+            "content": "creature",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "politicat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0981284,
+      "mentions": [
+        {
+          "text": {
+            "content": "politicat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "car",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.033884585,
+      "mentions": [
+        {
+          "text": {
+            "content": "car",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "leg",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014554885,
+      "mentions": [
+        {
+          "text": {
+            "content": "leg",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "interaction",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.012797303,
+      "mentions": [
+        {
+          "text": {
+            "content": "interaction",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "moto",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.012797303,
+      "mentions": [
+        {
+          "text": {
+            "content": "moto",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "campaign trail",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.012641934,
+      "mentions": [
+        {
+          "text": {
+            "content": "campaign trail",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "rescuer",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.011706999,
+      "mentions": [
+        {
+          "text": {
+            "content": "rescuer",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vet",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.011706999,
+      "mentions": [
+        {
+          "text": {
+            "content": "vet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/01_gbv",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bernie_Sanders"
+      },
+      "salience": 0.011142324,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bernie Sanders",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "sweetheart",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.006161495,
+      "mentions": [
+        {
+          "text": {
+            "content": "sweetheart",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "leg",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0053143757,
+      "mentions": [
+        {
+          "text": {
+            "content": "leg",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.004703391,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "surgery",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.0038834715,
+      "mentions": [
+        {
+          "text": {
+            "content": "surgery",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Aravind",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.003638782,
+      "mentions": [
+        {
+          "text": {
+            "content": "Aravind",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.8,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

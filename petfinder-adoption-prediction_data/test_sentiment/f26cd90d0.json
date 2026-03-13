@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Two little dogs have skin diseases, they have no shelter, and if no one is adopted, we shall go and put them into exile.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    },
+    {
+      "text": {
+        "content": "这两只小狗有少许皮肤病，再没人愿意领养，我们要给它们流浪了😭",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "they have no shelter",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.5651673,
+      "mentions": [
+        {
+          "text": {
+            "content": "they have no shelter",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "小狗",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.17824838,
+      "mentions": [
+        {
+          "text": {
+            "content": "小狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "皮肤病",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.17399351,
+      "mentions": [
+        {
+          "text": {
+            "content": "皮肤病",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.082590826,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1,
+    "score": -0.5
+  },
+  "language": "zh",
+  "categories": []
+}

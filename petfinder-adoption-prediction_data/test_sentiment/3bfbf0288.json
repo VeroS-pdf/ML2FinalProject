@@ -1,0 +1,227 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Hey i would like to adopt my kitten.. their mother is Semiflat persian.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "same colour calico..",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Diet in Holistic+Sportman Pride i need to adopt bcoz dun have time and have so many cat alrdy.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Open for cat lover only thx alot.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "*25December Discount for tdoay only =)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Semiflat",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.67881584,
+      "mentions": [
+        {
+          "text": {
+            "content": "mother",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "persian",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Semiflat",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.11129422,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "calico",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0370153,
+      "mentions": [
+        {
+          "text": {
+            "content": "calico",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Diet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03683343,
+      "mentions": [
+        {
+          "text": {
+            "content": "Diet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dun",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03301602,
+      "mentions": [
+        {
+          "text": {
+            "content": "dun",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat lover",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.025785891,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat lover",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "alot",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.025785891,
+      "mentions": [
+        {
+          "text": {
+            "content": "alot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sportman Pride",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.022150347,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sportman Pride",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Discount",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.018043404,
+      "mentions": [
+        {
+          "text": {
+            "content": "Discount",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat alrdy",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01125963,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat alrdy",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.9,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

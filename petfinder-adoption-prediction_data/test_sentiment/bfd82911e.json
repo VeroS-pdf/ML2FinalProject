@@ -1,0 +1,246 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "He was brought in to the vet by a good samaritan and will be going for his next vaccination soon.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "At the moment he is too young to be neutered.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Very active dog.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "Those interested can view the dog at the following location: Angsana Veterinary Clinic 31 A, Medan Angsana, Bandar Baru Air Itam, Penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Contact Number: Consultation Hours: Monday to Friday: 9:00 am to pm / 2:00 pm to 6:30 pm Saturday: 9:30 am to 5:00 pm Closed on Sunday and Public Holidays",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "vet",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.27253318,
+      "mentions": [
+        {
+          "text": {
+            "content": "vet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "samaritan",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.27253318,
+      "mentions": [
+        {
+          "text": {
+            "content": "samaritan",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.17920603,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vaccination",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.110062316,
+      "mentions": [
+        {
+          "text": {
+            "content": "vaccination",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.036742277,
+      "mentions": [
+        {
+          "text": {
+            "content": "location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Contact Number",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03365424,
+      "mentions": [
+        {
+          "text": {
+            "content": "Contact Number",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Medan Angsana",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/g/1tdjm115"
+      },
+      "salience": 0.022793405,
+      "mentions": [
+        {
+          "text": {
+            "content": "Medan Angsana",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Angsana Veterinary Clinic 31 A",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.021828322,
+      "mentions": [
+        {
+          "text": {
+            "content": "Angsana Veterinary Clinic 31 A",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Bandar Baru Air Itam",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03d0nvs",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim"
+      },
+      "salience": 0.0200387,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bandar Baru Air Itam",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Penang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/015806",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/George_Town,_Penang"
+      },
+      "salience": 0.0200387,
+      "mentions": [
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Public Holidays",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/09gqnmd",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Public_holiday"
+      },
+      "salience": 0.01056964,
+      "mentions": [
+        {
+          "text": {
+            "content": "Public Holidays",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.4,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

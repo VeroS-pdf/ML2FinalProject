@@ -1,0 +1,278 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "2 months ago we found 2 dogs with newborn puppies abandoned close to our usual stray feeding spot.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": -0.7
+      }
+    },
+    {
+      "text": {
+        "content": "At the time we found them, the puppies were poor little things, only a few days old and have not even opened their eyes.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "We made sure they received the care they needed and now they are eagerly looking for you to take them home so that they will have a safe home and your love forever.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "If you are interested to adopt them, please contact: RaRa PC 上两个月，发现了两只母狗被抛弃在我们喂养区附近，当时的这些小狗还未开眼睛，还是需要妈妈照顾的小宝贝，经过了重重磨练，恶劣环境的考验，现在他们准备好了，等待你们带他们回家，给他们一个不离不弃的家，永远爱护它保护它～　 有兴趣领养者请联络： 莊晴　 PC Ong　 六个月后，可以带回来，我们帮他们结扎～",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "found 2",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.453659,
+      "mentions": [
+        {
+          "text": {
+            "content": "found 2",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "PC",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.055522464,
+      "mentions": [
+        {
+          "text": {
+            "content": "PC",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "妈妈",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.048300028,
+      "mentions": [
+        {
+          "text": {
+            "content": "妈妈",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "宝贝",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.048300028,
+      "mentions": [
+        {
+          "text": {
+            "content": "宝贝",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "环境",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.048300028,
+      "mentions": [
+        {
+          "text": {
+            "content": "环境",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "考验",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.048300028,
+      "mentions": [
+        {
+          "text": {
+            "content": "考验",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "母狗",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.04370878,
+      "mentions": [
+        {
+          "text": {
+            "content": "母狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "区附近",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.04370878,
+      "mentions": [
+        {
+          "text": {
+            "content": "区附近",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "眼睛",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.04370878,
+      "mentions": [
+        {
+          "text": {
+            "content": "眼睛",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "PC Ong",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03854731,
+      "mentions": [
+        {
+          "text": {
+            "content": "PC Ong",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "小狗",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03579084,
+      "mentions": [
+        {
+          "text": {
+            "content": "小狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "庄晴",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.027450489,
+      "mentions": [
+        {
+          "text": {
+            "content": "莊晴",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "兴趣",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.023107857,
+      "mentions": [
+        {
+          "text": {
+            "content": "兴趣",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "领养者",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.023107857,
+      "mentions": [
+        {
+          "text": {
+            "content": "领养者",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "家",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.018487746,
+      "mentions": [
+        {
+          "text": {
+            "content": "家",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 3.1,
+    "score": -0.3
+  },
+  "language": "zh",
+  "categories": []
+}

@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "-D.O.B: - -P.O.B: KOTA BHARU -FOOD : ROYAL CANIN OUTDOOR - green eyes - chocolate fur - fluffy and playful - serious buyer only",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": 0.6
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "P.O.B",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5838388,
+      "mentions": [
+        {
+          "text": {
+            "content": "P.O.B",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "FOOD",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.14568816,
+      "mentions": [
+        {
+          "text": {
+            "content": "eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ROYAL CANIN",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Canin",
+        "mid": "/m/0bq5x1"
+      },
+      "salience": 0.09613484,
+      "mentions": [
+        {
+          "text": {
+            "content": "ROYAL CANIN",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "KOTA BHARU",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Bharu",
+        "mid": "/m/028zq1"
+      },
+      "salience": 0.09501006,
+      "mentions": [
+        {
+          "text": {
+            "content": "KOTA BHARU",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "buyer",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.079328135,
+      "mentions": [
+        {
+          "text": {
+            "content": "buyer",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.6,
+    "score": 0.6
+  },
+  "language": "en",
+  "categories": []
+}

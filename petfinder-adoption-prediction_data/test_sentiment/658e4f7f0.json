@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "these kittens were abandoned behind vistana hotel near bukit jambul area and were rescued by a good samaritan",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "kittens",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.50616896,
+      "mentions": [
+        {
+          "text": {
+            "content": "kittens",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vistana hotel",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.16109969,
+      "mentions": [
+        {
+          "text": {
+            "content": "vistana hotel",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "area",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.15053599,
+      "mentions": [
+        {
+          "text": {
+            "content": "area",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bukit jambul",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/02705hg",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bukit_Jambul"
+      },
+      "salience": 0.099758044,
+      "mentions": [
+        {
+          "text": {
+            "content": "bukit jambul",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "samaritan",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08243734,
+      "mentions": [
+        {
+          "text": {
+            "content": "samaritan",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": -0.3
+  },
+  "language": "en",
+  "categories": []
+}

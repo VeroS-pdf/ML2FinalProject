@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Alpha was found near LRT Sentul on 3rd Jan , she was very thin but now is recovering .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "She is still getting treated at SPCA Selangor and will be getting VACCINATED soon.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "I'll give some free dog shampoo to adopters too .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "She knows how to shake and sit , and is very good as she normally poops outside on her own .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "She is very energetic and likes to play .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Jan",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.69313073,
+      "mentions": [
+        {
+          "text": {
+            "content": "Jan",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Alpha",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.13407296,
+      "mentions": [
+        {
+          "text": {
+            "content": "Alpha",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "LRT Sentul",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.13407296,
+      "mentions": [
+        {
+          "text": {
+            "content": "LRT Sentul",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "dog shampoo",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.021045756,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog shampoo",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "SPCA Selangor",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.017677601,
+      "mentions": [
+        {
+          "text": {
+            "content": "SPCA Selangor",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.2,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

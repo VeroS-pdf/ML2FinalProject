@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Moving in to a strict no-pets dorm and have to let go of this kitty; Pm for contact details, Will get back asap.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Thank you Adoption Fee Negotiable",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "dorm",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.48933285,
+      "mentions": [
+        {
+          "text": {
+            "content": "dorm",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kitty",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.3473945,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitty",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "contact details",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.11189425,
+      "mentions": [
+        {
+          "text": {
+            "content": "contact details",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Adoption Fee Negotiable",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05137841,
+      "mentions": [
+        {
+          "text": {
+            "content": "Adoption Fee Negotiable",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.7,
+    "score": -0.1
+  },
+  "language": "en",
+  "categories": []
+}

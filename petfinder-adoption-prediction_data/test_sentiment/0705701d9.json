@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "# with MKA &amp; Microchip # Fully Vaccinated # Age: Male: 10 months Female: 4 months # Color: Male - brown &amp; white Female: Tri-color",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "MKA",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.50685483,
+      "mentions": [
+        {
+          "text": {
+            "content": "MKA",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Microchip",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/04hsld",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Microchip_implant_(animal)"
+      },
+      "salience": 0.22016726,
+      "mentions": [
+        {
+          "text": {
+            "content": "Microchip",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Female",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.14484242,
+      "mentions": [
+        {
+          "text": {
+            "content": "Female",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Tri-color",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.1281355,
+      "mentions": [
+        {
+          "text": {
+            "content": "Tri-color",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

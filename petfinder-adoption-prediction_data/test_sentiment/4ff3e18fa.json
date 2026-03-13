@@ -1,0 +1,165 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Baxter....a true gem.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "He is very pampered and loves to play with shoe laces!!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "If you walk around with your sports shoe with neon lace..the first thing he noticed is the shoe lace.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Colours fascinated him I guess.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Baxter",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.58117086,
+      "mentions": [
+        {
+          "text": {
+            "content": "Baxter",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "gem",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.18869793,
+      "mentions": [
+        {
+          "text": {
+            "content": "gem",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "shoe lace",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.12116976,
+      "mentions": [
+        {
+          "text": {
+            "content": "thing",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "shoe lace",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "shoe laces",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03193911,
+      "mentions": [
+        {
+          "text": {
+            "content": "shoe laces",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sports shoe",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.029560238,
+      "mentions": [
+        {
+          "text": {
+            "content": "sports shoe",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "neon lace",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.029560238,
+      "mentions": [
+        {
+          "text": {
+            "content": "neon lace",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Colours",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017901855,
+      "mentions": [
+        {
+          "text": {
+            "content": "Colours",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.7,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

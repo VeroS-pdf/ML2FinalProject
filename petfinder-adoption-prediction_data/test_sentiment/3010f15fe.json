@@ -1,0 +1,255 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "如果没有人领养我，我很快就会像其他三只狗狗那样被人下毒，然后离开这个世界了。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "虽然我的一个眼睛看不见了，但请看看我的笑容，我很想快乐的活下去，我想有个家。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "公狗，活泼， 加影锡米山 Very soon, I will be poisoned by ppl and leave this world...",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": -0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Three dogs were poisoned for the past 3 mths here.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "I lost one of my eye sight, but look at my smile, I wanted to live so much, can you adopt me and give me a loving home?",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Male, adorable, Kajang",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.24570906,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.18388776,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "狗狗",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.17695065,
+      "mentions": [
+        {
+          "text": {
+            "content": "狗狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "世界",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.10716172,
+      "mentions": [
+        {
+          "text": {
+            "content": "世界",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "I lost one of my eye sight",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.058939833,
+      "mentions": [
+        {
+          "text": {
+            "content": "I lost one of my eye sight",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "家",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.041766237,
+      "mentions": [
+        {
+          "text": {
+            "content": "家",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "加影锡米山",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/11bxds6ywv"
+      },
+      "salience": 0.039122052,
+      "mentions": [
+        {
+          "text": {
+            "content": "加影锡米山",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Very soon",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.039122052,
+      "mentions": [
+        {
+          "text": {
+            "content": "Very soon",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "past 3 mths here.",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.037183836,
+      "mentions": [
+        {
+          "text": {
+            "content": "past 3 mths here.",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "笑容",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.028746132,
+      "mentions": [
+        {
+          "text": {
+            "content": "笑容",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "眼睛",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.027008869,
+      "mentions": [
+        {
+          "text": {
+            "content": "眼睛",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adorable",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01440179,
+      "mentions": [
+        {
+          "text": {
+            "content": "adorable",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 3.5,
+    "score": 0
+  },
+  "language": "zh",
+  "categories": []
+}

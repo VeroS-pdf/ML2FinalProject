@@ -1,0 +1,149 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Those interested may enquire about them at the following address: Angsana Veterinary Clinic 31 A, Medan Angsana, Bandar Baru Air Itam, Penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Contact Number: Consultation Hours: Monday to Friday: 9:00 am to pm / 2:00 pm to 6:30 pm Saturday: 9:30 am to 5:00 pm Closed on Sunday and Public Holidays",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "address",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.297784,
+      "mentions": [
+        {
+          "text": {
+            "content": "address",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Angsana Veterinary Clinic 31 A",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.18129711,
+      "mentions": [
+        {
+          "text": {
+            "content": "Angsana Veterinary Clinic 31 A",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Medan Angsana",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/g/1tdjm115"
+      },
+      "salience": 0.14063245,
+      "mentions": [
+        {
+          "text": {
+            "content": "Medan Angsana",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Bandar Baru Air Itam",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03d0nvs",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim"
+      },
+      "salience": 0.12402471,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bandar Baru Air Itam",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Penang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0g6xq",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+      },
+      "salience": 0.12402471,
+      "mentions": [
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Contact Number",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10244707,
+      "mentions": [
+        {
+          "text": {
+            "content": "Contact Number",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Public Holidays",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/09gqnmd",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Public_holiday"
+      },
+      "salience": 0.02978996,
+      "mentions": [
+        {
+          "text": {
+            "content": "Public Holidays",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

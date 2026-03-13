@@ -1,0 +1,156 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "a friend rescued this little kitty when he was tiny and now he's the concentration of an Olympic athlete.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "she needs to find him a home she can be contacted Ji Lynn - ps full tail",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "friend",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.7336065,
+      "mentions": [
+        {
+          "text": {
+            "content": "friend",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kitty",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08251777,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitty",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "concentration",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05725667,
+      "mentions": [
+        {
+          "text": {
+            "content": "concentration",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "athlete",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.05725667,
+      "mentions": [
+        {
+          "text": {
+            "content": "athlete",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Olympic",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/05nd_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Olympic_Games"
+      },
+      "salience": 0.034321137,
+      "mentions": [
+        {
+          "text": {
+            "content": "Olympic",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "tail",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013642013,
+      "mentions": [
+        {
+          "text": {
+            "content": "tail",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.013312775,
+      "mentions": [
+        {
+          "text": {
+            "content": "home",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Ji Lynn - ps",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.008086453,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ji Lynn - ps",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.7,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

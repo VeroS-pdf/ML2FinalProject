@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Zenna is a very calm baby.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "She loves her afternoon nap compare to the rest who play more hours than she does.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Zenna",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/g/11c59n6lnf"
+      },
+      "salience": 0.8496982,
+      "mentions": [
+        {
+          "text": {
+            "content": "Zenna",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "baby",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "rest",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.120647386,
+      "mentions": [
+        {
+          "text": {
+            "content": "rest",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "afternoon nap",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02965443,
+      "mentions": [
+        {
+          "text": {
+            "content": "afternoon nap",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0.7
+  },
+  "language": "en",
+  "categories": []
+}

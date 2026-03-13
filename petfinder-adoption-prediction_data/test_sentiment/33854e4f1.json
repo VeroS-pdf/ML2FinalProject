@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Black beauty princess found at wet market @ Seri Kembangan.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Suspected being dump by irresponsible dog owner.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "estimate",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Black beauty princess",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5777357,
+      "mentions": [
+        {
+          "text": {
+            "content": "Black beauty princess",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "wet market",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.17853542,
+      "mentions": [
+        {
+          "text": {
+            "content": "wet market",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "@ Seri Kembangan",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.108699925,
+      "mentions": [
+        {
+          "text": {
+            "content": "@ Seri Kembangan",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "dog owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06291823,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "estimate",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.04414329,
+      "mentions": [
+        {
+          "text": {
+            "content": "estimate",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dump",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.02796742,
+      "mentions": [
+        {
+          "text": {
+            "content": "dump",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.7,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

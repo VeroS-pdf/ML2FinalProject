@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Cute, Sweet and Lovery",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Cute",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/04h3kx",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cuteness"
+      },
+      "salience": 0.6482855,
+      "mentions": [
+        {
+          "text": {
+            "content": "Cute",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Sweet",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.20584632,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sweet",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Lovery",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.1458682,
+      "mentions": [
+        {
+          "text": {
+            "content": "Lovery",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

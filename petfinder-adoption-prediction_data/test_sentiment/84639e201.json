@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Sawyer : eager to please Breed : Mongrel Sex : Male Age : approx 2 1/2 years Weight : approx 12 kg Colour : Black with tan underbelly Vaccinated : Yes",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Mongrel Sex : Male Age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.4849084,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mongrel Sex : Male Age",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Weight",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sawyer",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.29756692,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sawyer",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Black",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10061146,
+      "mentions": [
+        {
+          "text": {
+            "content": "Black",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "underbelly",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07150743,
+      "mentions": [
+        {
+          "text": {
+            "content": "underbelly",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.045405794,
+      "mentions": [
+        {
+          "text": {
+            "content": "Colour",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.3,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

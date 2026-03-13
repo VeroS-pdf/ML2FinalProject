@@ -1,0 +1,605 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "my juniors found a dog wandering near HSBC bank closed to Taman Jawa, Butterworth (near ferry terminal) on /11 (Friday) evening and they brought him to me.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "i've put up notice (paper or facebook) but i've been waiting for 4 weeks but no one request.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Guess it's being abandoned =(",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    },
+    {
+      "text": {
+        "content": "I'm taking care of him temporarily as i'm still a student and i'll be going back to Sabah as soon as i finish my final exam in Sept. so i need to help him to find a new owner. is it ok if you could help me to post this on your GrASS wall so more people can know bout this?",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Please help him to get an owner...!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Breed: Mixed Schnauzer/ terrier ...Age: Adult Male (2-3 yrs old??)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Features: Mixed grey and brown color fur with metal collar.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Very obedient when sits inside car, very manja too!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Current location : Butterworth penang Anyone interested please contact me!!",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "(Chan)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "student",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.5126165,
+      "mentions": [
+        {
+          "text": {
+            "content": "student",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Butterworth",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03sqpj",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Butterworth,_Penang"
+      },
+      "salience": 0.16517137,
+      "mentions": [
+        {
+          "text": {
+            "content": "Butterworth",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Butterworth penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "juniors",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.09651979,
+      "mentions": [
+        {
+          "text": {
+            "content": "juniors",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.035228834,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bank",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.035228834,
+      "mentions": [
+        {
+          "text": {
+            "content": "bank",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ferry terminal",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.035228834,
+      "mentions": [
+        {
+          "text": {
+            "content": "ferry terminal",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "HSBC",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.021061998,
+      "mentions": [
+        {
+          "text": {
+            "content": "HSBC",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Taman Jawa",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/g/1q5bksr_h"
+      },
+      "salience": 0.021061998,
+      "mentions": [
+        {
+          "text": {
+            "content": "Taman Jawa",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "owner.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0071979812,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "notice",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0065382356,
+      "mentions": [
+        {
+          "text": {
+            "content": "notice",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "paper",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0065382356,
+      "mentions": [
+        {
+          "text": {
+            "content": "paper",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "facebook",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0065382356,
+      "mentions": [
+        {
+          "text": {
+            "content": "facebook",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "care",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0050732885,
+      "mentions": [
+        {
+          "text": {
+            "content": "care",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "exam",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004432767,
+      "mentions": [
+        {
+          "text": {
+            "content": "exam",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "request",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004416105,
+      "mentions": [
+        {
+          "text": {
+            "content": "request",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "GrASS wall",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0040677967,
+      "mentions": [
+        {
+          "text": {
+            "content": "GrASS wall",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Features",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.003045737,
+      "mentions": [
+        {
+          "text": {
+            "content": "Features",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "grey",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.003045737,
+      "mentions": [
+        {
+          "text": {
+            "content": "grey",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "color fur",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.003045737,
+      "mentions": [
+        {
+          "text": {
+            "content": "color fur",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "metal collar",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.003045737,
+      "mentions": [
+        {
+          "text": {
+            "content": "metal collar",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Sabah",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0026224146,
+      "mentions": [
+        {
+          "text": {
+            "content": "Sabah",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "car",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.0021289655,
+      "mentions": [
+        {
+          "text": {
+            "content": "car",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0021258842,
+      "mentions": [
+        {
+          "text": {
+            "content": "location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Anyone",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0021258842,
+      "mentions": [
+        {
+          "text": {
+            "content": "Anyone",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0019536596,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "bout",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.0013454631,
+      "mentions": [
+        {
+          "text": {
+            "content": "bout",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Breed",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0013387674,
+      "mentions": [
+        {
+          "text": {
+            "content": "Breed",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "terrier",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.0013387674,
+      "mentions": [
+        {
+          "text": {
+            "content": "terrier",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Schnauzer",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0013387674,
+      "mentions": [
+        {
+          "text": {
+            "content": "Schnauzer",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0013387674,
+      "mentions": [
+        {
+          "text": {
+            "content": "Age",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Chan",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0012550534,
+      "mentions": [
+        {
+          "text": {
+            "content": "Chan",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0007271282,
+      "mentions": [
+        {
+          "text": {
+            "content": "people",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.1,
+    "score": 0
+  },
+  "language": "en",
+  "categories": []
+}

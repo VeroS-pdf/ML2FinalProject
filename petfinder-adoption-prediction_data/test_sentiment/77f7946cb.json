@@ -1,0 +1,231 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "牠们的狗妈妈是附近工厂放出来而变成流浪狗。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "后来狗妈妈怀孕了，我们就做好心照顾狗宝宝和帮助牠们寻找愿意领养牠们的人。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "MeiMei 有一双相似画了眼线的眼睛，而且也很精灵。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "让牠们有一个温暖的家与关怀。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "非常感谢大家。",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "流浪狗",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2556599,
+      "mentions": [
+        {
+          "text": {
+            "content": "流浪狗",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "狗妈妈",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.24897897,
+      "mentions": [
+        {
+          "text": {
+            "content": "狗妈妈",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "附近工厂",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.1631423,
+      "mentions": [
+        {
+          "text": {
+            "content": "附近工厂",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "妈妈",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.09422124,
+      "mentions": [
+        {
+          "text": {
+            "content": "妈妈",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "人",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.048249766,
+      "mentions": [
+        {
+          "text": {
+            "content": "人",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "眼线",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.047147006,
+      "mentions": [
+        {
+          "text": {
+            "content": "眼线",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "眼睛",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.047147006,
+      "mentions": [
+        {
+          "text": {
+            "content": "眼睛",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "MeiMei",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/05zvzft",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/MeiMei_Kuo"
+      },
+      "salience": 0.0409272,
+      "mentions": [
+        {
+          "text": {
+            "content": "MeiMei",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "心照顾狗宝宝",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.024956807,
+      "mentions": [
+        {
+          "text": {
+            "content": "心照顾狗宝宝",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "家",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.015707003,
+      "mentions": [
+        {
+          "text": {
+            "content": "家",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "关怀",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013862806,
+      "mentions": [
+        {
+          "text": {
+            "content": "关怀",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 3,
+    "score": 0.4
+  },
+  "language": "zh",
+  "categories": []
+}

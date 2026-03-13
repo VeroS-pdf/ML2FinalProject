@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "One of many of Heidi's kid.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "One",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.56068635,
+      "mentions": [
+        {
+          "text": {
+            "content": "One",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "many",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.26232,
+      "mentions": [
+        {
+          "text": {
+            "content": "many",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Heidi",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.11575983,
+      "mentions": [
+        {
+          "text": {
+            "content": "Heidi",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "kid",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06123382,
+      "mentions": [
+        {
+          "text": {
+            "content": "kid",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

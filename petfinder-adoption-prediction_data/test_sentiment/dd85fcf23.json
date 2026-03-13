@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "oWNER HASN'T RESPONDED TO ANYONE.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "SO WE'VE COME TO A CONCLUSION THAT THE OWNER DOES NOT WANT TO GIVE UP THE DOG.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": -0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "HASN'T",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.69064534,
+      "mentions": [
+        {
+          "text": {
+            "content": "HASN'T",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "oWNER",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "OWNER",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ANYONE",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.15950637,
+      "mentions": [
+        {
+          "text": {
+            "content": "ANYONE",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "CONCLUSION",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.12913002,
+      "mentions": [
+        {
+          "text": {
+            "content": "CONCLUSION",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "DOG",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.020718288,
+      "mentions": [
+        {
+          "text": {
+            "content": "DOG",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1,
+    "score": -0.5
+  },
+  "language": "en",
+  "categories": []
+}

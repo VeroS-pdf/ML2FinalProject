@@ -1,0 +1,271 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "*Update* Due to excessive messages &amp; phone calls, we would like to clarify a few things: 1-She has a skin disease called Demodex, kindly google it for more details.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    },
+    {
+      "text": {
+        "content": "2-Interviews will be conducted for any potential adopters 3-We do not allow trial adopting as she has experienced being returned &amp; we do not want her to experience that again 4-We will have regular visit even after the adoption to ensure she is well taken care of.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    },
+    {
+      "text": {
+        "content": "Msg for more details",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Update",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.18235941,
+      "mentions": [
+        {
+          "text": {
+            "content": "Update",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "messages",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.18235941,
+      "mentions": [
+        {
+          "text": {
+            "content": "messages",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "phone calls",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.18235941,
+      "mentions": [
+        {
+          "text": {
+            "content": "phone calls",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "skin disease",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.13999327,
+      "mentions": [
+        {
+          "text": {
+            "content": "skin disease",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "things",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07191507,
+      "mentions": [
+        {
+          "text": {
+            "content": "things",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "details",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.055552587,
+      "mentions": [
+        {
+          "text": {
+            "content": "details",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Demodex",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/03vjgn",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Demodex"
+      },
+      "salience": 0.0340966,
+      "mentions": [
+        {
+          "text": {
+            "content": "Demodex",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Interviews",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.028768053,
+      "mentions": [
+        {
+          "text": {
+            "content": "Interviews",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adopters",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.027246315,
+      "mentions": [
+        {
+          "text": {
+            "content": "adopters",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "trial",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.021994298,
+      "mentions": [
+        {
+          "text": {
+            "content": "trial",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.01888707,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "visit",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.016399032,
+      "mentions": [
+        {
+          "text": {
+            "content": "visit",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "care",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013315855,
+      "mentions": [
+        {
+          "text": {
+            "content": "care",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "details",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013175673,
+      "mentions": [
+        {
+          "text": {
+            "content": "details",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Msg",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.01157797,
+      "mentions": [
+        {
+          "text": {
+            "content": "Msg",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.2,
+    "score": -0.3
+  },
+  "language": "en",
+  "categories": []
+}

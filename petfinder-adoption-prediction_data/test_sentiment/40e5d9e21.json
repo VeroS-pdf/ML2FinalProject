@@ -1,0 +1,477 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "I found this kitten (/12) sitting alone middle of the road fully covered by mud and in very bad condition.I think he was sitting middle of the road cuz he cant see - both eyes swollen n covered with puss,right eye has some blood also + he was limping.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Already took him to the vet and he has been dewormed 2x .Fleas oso clear ready.Doc also gave antibiotic and eyedrop.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": -0.4
+      }
+    },
+    {
+      "text": {
+        "content": "Alot of improvement in appetite and health since then.The right eye still need to continue with eye drop,other then that no other health issue.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Please call to view/give this adorable lil angel a 2nd chance.I can only keep this kitten till 25th of July.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Details of the kitten : -Male -3 weeks old now -0.4kg -dwi color - creame with black spot -has been dewormed.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "-He is fleas-free",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": -0.5
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.23229645,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.17117801,
+      "mentions": [
+        {
+          "text": {
+            "content": "eye",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "eye",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.11317056,
+      "mentions": [
+        {
+          "text": {
+            "content": "road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mud",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10001007,
+      "mentions": [
+        {
+          "text": {
+            "content": "mud",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "road",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.044169057,
+      "mentions": [
+        {
+          "text": {
+            "content": "road",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "condition.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03888444,
+      "mentions": [
+        {
+          "text": {
+            "content": "condition.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03888444,
+      "mentions": [
+        {
+          "text": {
+            "content": "eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "n",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03888444,
+      "mentions": [
+        {
+          "text": {
+            "content": "n",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Doc",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.02874311,
+      "mentions": [
+        {
+          "text": {
+            "content": "Doc",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "ready.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "puss",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.026367784,
+      "mentions": [
+        {
+          "text": {
+            "content": "puss",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "blood",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.026367784,
+      "mentions": [
+        {
+          "text": {
+            "content": "blood",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "health",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.013379208,
+      "mentions": [
+        {
+          "text": {
+            "content": "health",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eyedrop",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0128750745,
+      "mentions": [
+        {
+          "text": {
+            "content": "eyedrop",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Alot",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0128113,
+      "mentions": [
+        {
+          "text": {
+            "content": "Alot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "improvement",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0128113,
+      "mentions": [
+        {
+          "text": {
+            "content": "improvement",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vet",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.012718355,
+      "mentions": [
+        {
+          "text": {
+            "content": "vet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "appetite",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011758523,
+      "mentions": [
+        {
+          "text": {
+            "content": "appetite",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eye drop",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.011758523,
+      "mentions": [
+        {
+          "text": {
+            "content": "eye drop",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.010993575,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.00999383,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Details",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008813669,
+      "mentions": [
+        {
+          "text": {
+            "content": "Details",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "color - creame",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0061735474,
+      "mentions": [
+        {
+          "text": {
+            "content": "color - creame",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "black spot",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0061735474,
+      "mentions": [
+        {
+          "text": {
+            "content": "black spot",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "lil angel",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0039285384,
+      "mentions": [
+        {
+          "text": {
+            "content": "lil angel",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "health issue",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.003894279,
+      "mentions": [
+        {
+          "text": {
+            "content": "health issue",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "chance.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0029605897,
+      "mentions": [
+        {
+          "text": {
+            "content": "chance.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2.7,
+    "score": -0.2
+  },
+  "language": "en",
+  "categories": []
+}

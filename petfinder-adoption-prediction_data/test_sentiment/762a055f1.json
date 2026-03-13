@@ -1,0 +1,313 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "This male dog was left outside our shop.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.6,
+        "score": -0.6
+      }
+    },
+    {
+      "text": {
+        "content": "He is in good health.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "If you are interested to adopt him, he need to be neuter and the fees will be borne by you.Neutering a dog has lots of benefits.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "If you don't intend to neuter please do not call.Thank you 此狗疑被弃置店外，他格性温驯与安靜．",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "若有兴趣领养，领养前需阉割后方可领取，手術由我方兽医负责而费用由领养者支付．",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "阉割好処是狗儿健康，減低生殖器患癌机率．若",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "拒绝阉割狗狗者请勿致电询问．",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    },
+    {
+      "text": {
+        "content": "谢绝无诚意者．",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "谢谢",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": 0.3
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "领养者",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.16250627,
+      "mentions": [
+        {
+          "text": {
+            "content": "领养者",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "他格性",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.092887536,
+      "mentions": [
+        {
+          "text": {
+            "content": "他格性",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "后方",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.09131549,
+      "mentions": [
+        {
+          "text": {
+            "content": "后方",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "店",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.08408571,
+      "mentions": [
+        {
+          "text": {
+            "content": "店",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "兴趣",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.08266171,
+      "mentions": [
+        {
+          "text": {
+            "content": "兴趣",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "手术",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.067724645,
+      "mentions": [
+        {
+          "text": {
+            "content": "手術",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "费用",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.067724645,
+      "mentions": [
+        {
+          "text": {
+            "content": "费用",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "我方兽医",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.06605726,
+      "mentions": [
+        {
+          "text": {
+            "content": "我方兽医",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "狗狗者",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.065490745,
+      "mentions": [
+        {
+          "text": {
+            "content": "狗狗者",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "诚意者",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06106793,
+      "mentions": [
+        {
+          "text": {
+            "content": "诚意者",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "谢绝无",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.040621426,
+      "mentions": [
+        {
+          "text": {
+            "content": "谢绝无",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "狗儿健康",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.040272914,
+      "mentions": [
+        {
+          "text": {
+            "content": "狗儿健康",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "好处",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.038791854,
+      "mentions": [
+        {
+          "text": {
+            "content": "好処",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "生殖器患癌机率",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.038791854,
+      "mentions": [
+        {
+          "text": {
+            "content": "生殖器患癌机率",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 3.3,
+    "score": 0.1
+  },
+  "language": "zh",
+  "categories": []
+}

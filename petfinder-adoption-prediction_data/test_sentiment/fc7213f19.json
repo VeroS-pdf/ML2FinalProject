@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "~1 female,1 male ~healthy and active ~owner migrated cant bring along ~pls call Ms Han () for viewing *im helping my fren to post this up,kindly contact her personally for further information.* thank you",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Han",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.5051118,
+      "mentions": [
+        {
+          "text": {
+            "content": "Han",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ms",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.1709852,
+      "mentions": [
+        {
+          "text": {
+            "content": "owner",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cant",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.11781255,
+      "mentions": [
+        {
+          "text": {
+            "content": "cant",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "im",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10977422,
+      "mentions": [
+        {
+          "text": {
+            "content": "im",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "information.",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05903289,
+      "mentions": [
+        {
+          "text": {
+            "content": "information.",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "fren",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.037283335,
+      "mentions": [
+        {
+          "text": {
+            "content": "fren",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.1,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

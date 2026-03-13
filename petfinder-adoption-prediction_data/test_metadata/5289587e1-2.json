@@ -1,0 +1,188 @@
+{
+    "labelAnnotations": [
+        {
+            "mid": "/m/04kwhq",
+            "description": "christmas ornament",
+            "score": 0.7783029,
+            "topicality": 0.7783029
+        },
+        {
+            "mid": "/m/02h7lkt",
+            "description": "fictional character",
+            "score": 0.6096577,
+            "topicality": 0.6096577
+        },
+        {
+            "mid": "/m/01vq3",
+            "description": "christmas",
+            "score": 0.59161276,
+            "topicality": 0.59161276
+        },
+        {
+            "mid": "/m/048knlz",
+            "description": "love",
+            "score": 0.5655374,
+            "topicality": 0.5655374
+        },
+        {
+            "mid": "/m/02fpy0",
+            "description": "puppy love",
+            "score": 0.55244285,
+            "topicality": 0.55244285
+        },
+        {
+            "mid": "/m/03gkl",
+            "description": "holiday",
+            "score": 0.50737387,
+            "topicality": 0.50737387
+        }
+    ],
+    "textAnnotations": [
+        {
+            "locale": "en",
+            "description": "Dear Santa,\njust wish for a\nloving home...\n",
+            "boundingPoly": {
+                "vertices": [
+                    {
+                        "x": 357,
+                        "y": 20
+                    },
+                    {
+                        "x": 568,
+                        "y": 20
+                    },
+                    {
+                        "x": 568,
+                        "y": 102
+                    },
+                    {
+                        "x": 357,
+                        "y": 102
+                    }
+                ]
+            }
+        }
+    ],
+    "imagePropertiesAnnotation": {
+        "dominantColors": {
+            "colors": [
+                {
+                    "color": {
+                        "red": 187,
+                        "green": 6,
+                        "blue": 8
+                    },
+                    "score": 0.23717318,
+                    "pixelFraction": 0.0068982113
+                },
+                {
+                    "color": {
+                        "red": 162,
+                        "green": 26,
+                        "blue": 26
+                    },
+                    "score": 0.14249651,
+                    "pixelFraction": 0.007058635
+                },
+                {
+                    "color": {
+                        "red": 201,
+                        "green": 148,
+                        "blue": 128
+                    },
+                    "score": 0.07947877,
+                    "pixelFraction": 0.02013315
+                },
+                {
+                    "color": {
+                        "red": 246,
+                        "green": 239,
+                        "blue": 242
+                    },
+                    "score": 0.009123684,
+                    "pixelFraction": 0.52225876
+                },
+                {
+                    "color": {
+                        "red": 167,
+                        "green": 8,
+                        "blue": 7
+                    },
+                    "score": 0.10687222,
+                    "pixelFraction": 0.0035293174
+                },
+                {
+                    "color": {
+                        "red": 210,
+                        "green": 24,
+                        "blue": 26
+                    },
+                    "score": 0.071784854,
+                    "pixelFraction": 0.0033688939
+                },
+                {
+                    "color": {
+                        "red": 226,
+                        "green": 177,
+                        "blue": 161
+                    },
+                    "score": 0.068517104,
+                    "pixelFraction": 0.050693832
+                },
+                {
+                    "color": {
+                        "red": 212,
+                        "green": 45,
+                        "blue": 55
+                    },
+                    "score": 0.025466703,
+                    "pixelFraction": 0.002326141
+                },
+                {
+                    "color": {
+                        "red": 164,
+                        "green": 107,
+                        "blue": 91
+                    },
+                    "score": 0.025198782,
+                    "pixelFraction": 0.0048127053
+                },
+                {
+                    "color": {
+                        "red": 201,
+                        "green": 60,
+                        "blue": 56
+                    },
+                    "score": 0.021817138,
+                    "pixelFraction": 0.0019250822
+                }
+            ]
+        }
+    },
+    "cropHintsAnnotation": {
+        "cropHints": [
+            {
+                "boundingPoly": {
+                    "vertices": [
+                        {
+                            "x": 31
+                        },
+                        {
+                            "x": 568
+                        },
+                        {
+                            "x": 568,
+                            "y": 426
+                        },
+                        {
+                            "x": 31,
+                            "y": 426
+                        }
+                    ]
+                },
+                "confidence": 0.79999995,
+                "importanceFraction": 0.96
+            }
+        ]
+    }
+}

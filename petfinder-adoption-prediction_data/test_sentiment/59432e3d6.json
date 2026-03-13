@@ -1,0 +1,264 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Hi every leng cai, leng lui &amp; pet lovers, all of us just borned 1 month ago from the same parent.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Some calls us Fantastic 4 or F4.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "But i think Backstreet Boys suit us the most.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "Oh my future master, please come to me.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    },
+    {
+      "text": {
+        "content": "A..Hoo..Hoo..Hoo..(dog sound)",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "leng",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.28865758,
+      "mentions": [
+        {
+          "text": {
+            "content": "leng",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.25658965,
+      "mentions": [
+        {
+          "text": {
+            "content": "pet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "all",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10256421,
+      "mentions": [
+        {
+          "text": {
+            "content": "all",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "lovers",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.10256421,
+      "mentions": [
+        {
+          "text": {
+            "content": "lovers",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "parent",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06995157,
+      "mentions": [
+        {
+          "text": {
+            "content": "parent",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "F4",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03437075,
+      "mentions": [
+        {
+          "text": {
+            "content": "F4",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Some",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03395485,
+      "mentions": [
+        {
+          "text": {
+            "content": "Some",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "most",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03140635,
+      "mentions": [
+        {
+          "text": {
+            "content": "most",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Fantastic 4",
+      "type": "WORK_OF_ART",
+      "metadata": {
+        "mid": "/m/0_rf7h_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fantastic_Four_(2015_film)"
+      },
+      "salience": 0.020401185,
+      "mentions": [
+        {
+          "text": {
+            "content": "Fantastic 4",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Backstreet Boys",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/m/0hmlc",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Backstreet_Boys"
+      },
+      "salience": 0.01863386,
+      "mentions": [
+        {
+          "text": {
+            "content": "Backstreet Boys",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "dog sound",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.016532138,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog sound",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "A...Hoo...Hoo...Hoo...",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.013970886,
+      "mentions": [
+        {
+          "text": {
+            "content": "A..Hoo..Hoo..Hoo..",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "master",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.010402785,
+      "mentions": [
+        {
+          "text": {
+            "content": "master",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.9,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

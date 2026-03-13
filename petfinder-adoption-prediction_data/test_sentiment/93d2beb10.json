@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "for adoption jb/taman molek/ulu tiram",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.65249854,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ulu",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.15590964,
+      "mentions": [
+        {
+          "text": {
+            "content": "ulu",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "taman molek",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03c430g",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Taman_Molek"
+      },
+      "salience": 0.124241084,
+      "mentions": [
+        {
+          "text": {
+            "content": "taman molek",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "tiram",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.067350715,
+      "mentions": [
+        {
+          "text": {
+            "content": "tiram",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.1,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

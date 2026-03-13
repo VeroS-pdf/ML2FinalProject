@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "mixture of fox and cat :b (well just kidding, he has fox ears!!) he is lovely and so handy, loves to be beside you and play with you, better to adopt with any siblings.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "contact me",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "fox",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.28187448,
+      "mentions": [
+        {
+          "text": {
+            "content": "fox",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "mixture",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2525223,
+      "mentions": [
+        {
+          "text": {
+            "content": "mixture",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.2525223,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "b",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.10488347,
+      "mentions": [
+        {
+          "text": {
+            "content": "b",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "fox ears",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.07213028,
+      "mentions": [
+        {
+          "text": {
+            "content": "fox ears",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "siblings",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.036067225,
+      "mentions": [
+        {
+          "text": {
+            "content": "siblings",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "SHE JUST GIVE BIRTH OF 4 KITTENS THEY ARE SUPER CUTE AND HOPING THEY WILL FIND A GREAT HOME THANK YOU .",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "KITTENS",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.6418885,
+      "mentions": [
+        {
+          "text": {
+            "content": "KITTENS",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "HOME",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.18212453,
+      "mentions": [
+        {
+          "text": {
+            "content": "HOME",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "BIRTH",
+      "type": "EVENT",
+      "metadata": {},
+      "salience": 0.17598699,
+      "mentions": [
+        {
+          "text": {
+            "content": "BIRTH",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.9
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,554 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "There are 3 cats available for adoption in Penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "The details are as listed below: Gender: Males Colours: * Orange with stripes &amp; Brown eyes * White with Brown Patches &amp; Blue Eyes * White with Brown Patches &amp; Yellow Eyes Description: * The orange cat is still a kitten and has a slight left back paw problem which should soon heal when the muscles regenerate.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "He was brought in by a good samaritan.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "* Both the white and brown patched cats are brothers.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "For those interested in adopting the cats, they can view the cats at this location: Angsana Veterinary Clinic 31 A, Medan Angsana, Bandar Baru Air Itam, Penang.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.4,
+        "score": 0.4
+      }
+    },
+    {
+      "text": {
+        "content": "Contact Number: Consultation Hours: Monday to Friday: 9:00 am to pm / 2:00 pm to 6:30 pm Saturday: 9:30 am to 5:00 pm Closed on Sunday and Public Holidays",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": -0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "details",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21676487,
+      "mentions": [
+        {
+          "text": {
+            "content": "details",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Colours",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.14548479,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.11273709,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Gender",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.05534074,
+      "mentions": [
+        {
+          "text": {
+            "content": "Gender",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Penang",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0g6xq",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+      },
+      "salience": 0.04639588,
+      "mentions": [
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Penang",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "brothers",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.042169884,
+      "mentions": [
+        {
+          "text": {
+            "content": "brothers",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "paw problem",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03632422,
+      "mentions": [
+        {
+          "text": {
+            "content": "paw problem",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02642035,
+      "mentions": [
+        {
+          "text": {
+            "content": "eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02642035,
+      "mentions": [
+        {
+          "text": {
+            "content": "Eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "White",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.024117291,
+      "mentions": [
+        {
+          "text": {
+            "content": "White",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Brown Patches",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.024117291,
+      "mentions": [
+        {
+          "text": {
+            "content": "Brown Patches",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Brown Patches",
+      "type": "CONSUMER_GOOD",
+      "metadata": {},
+      "salience": 0.024117291,
+      "mentions": [
+        {
+          "text": {
+            "content": "Brown Patches",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "stripes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.02120519,
+      "mentions": [
+        {
+          "text": {
+            "content": "stripes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "kitten",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.018312704,
+      "mentions": [
+        {
+          "text": {
+            "content": "kitten",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Eyes",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017875018,
+      "mentions": [
+        {
+          "text": {
+            "content": "Eyes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017633002,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017633002,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017253889,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cat",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.017226385,
+      "mentions": [
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Brown",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/09q2t",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brown"
+      },
+      "salience": 0.01567447,
+      "mentions": [
+        {
+          "text": {
+            "content": "Brown",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "muscles",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014513524,
+      "mentions": [
+        {
+          "text": {
+            "content": "muscles",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "samaritan",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0144416345,
+      "mentions": [
+        {
+          "text": {
+            "content": "samaritan",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Description",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.014336861,
+      "mentions": [
+        {
+          "text": {
+            "content": "Description",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0jc_p",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Orange_(colour)"
+      },
+      "salience": 0.012569682,
+      "mentions": [
+        {
+          "text": {
+            "content": "Orange",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.004362367,
+      "mentions": [
+        {
+          "text": {
+            "content": "location",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Contact Number",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004352598,
+      "mentions": [
+        {
+          "text": {
+            "content": "Contact Number",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Public Holidays",
+      "type": "EVENT",
+      "metadata": {
+        "mid": "/m/09gqnmd",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Public_holiday"
+      },
+      "salience": 0.0041063037,
+      "mentions": [
+        {
+          "text": {
+            "content": "Public Holidays",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Medan Angsana",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/g/1tdjm115"
+      },
+      "salience": 0.002935885,
+      "mentions": [
+        {
+          "text": {
+            "content": "Medan Angsana",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Angsana Veterinary Clinic 31 A",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.002578721,
+      "mentions": [
+        {
+          "text": {
+            "content": "Angsana Veterinary Clinic 31 A",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Bandar Baru Air Itam",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03d0nvs",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim"
+      },
+      "salience": 0.002578721,
+      "mentions": [
+        {
+          "text": {
+            "content": "Bandar Baru Air Itam",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.6,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

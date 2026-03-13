@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "she is very cheeky and curious.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    },
+    {
+      "text": {
+        "content": "easy to train and loves to jump and climb.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "LOCATED AT ANGSANA VET FARLIM PENANG",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "ANGSANA VET",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "mid": "/g/1tnmc1vk"
+      },
+      "salience": 0.5863237,
+      "mentions": [
+        {
+          "text": {
+            "content": "ANGSANA VET",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "FARLIM PENANG",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/03d0nvs",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim"
+      },
+      "salience": 0.41367632,
+      "mentions": [
+        {
+          "text": {
+            "content": "FARLIM PENANG",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.5,
+    "score": 0.5
+  },
+  "language": "en",
+  "categories": []
+}

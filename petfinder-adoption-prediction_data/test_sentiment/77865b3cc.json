@@ -1,0 +1,261 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Toby was adopted when he was 2mths old.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Irresponsible adopter must have abandoned him as he was found roaming near the flats in Wangsa Maju.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.3,
+        "score": -0.3
+      }
+    },
+    {
+      "text": {
+        "content": "Residents in the area adore him but could not keep him.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "He is friendly, strong and still a puppy at heart.Vets that has seen him claimed that he is a very good temperament dog.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Reimbursement of neutering and vaccination would be much appreciated as it would be used to sterilize and help finance medical expenses for the next dog rescued.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.5,
+        "score": 0.5
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Toby",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.8303565,
+      "mentions": [
+        {
+          "text": {
+            "content": "Toby",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "puppy",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.03593115,
+      "mentions": [
+        {
+          "text": {
+            "content": "puppy",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Reimbursement",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.034982443,
+      "mentions": [
+        {
+          "text": {
+            "content": "Reimbursement",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "flats",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.021752868,
+      "mentions": [
+        {
+          "text": {
+            "content": "flats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Residents",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.014661175,
+      "mentions": [
+        {
+          "text": {
+            "content": "Residents",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "area",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.014661175,
+      "mentions": [
+        {
+          "text": {
+            "content": "area",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Wangsa Maju",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/0d0_c7",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wangsa_Maju"
+      },
+      "salience": 0.008737407,
+      "mentions": [
+        {
+          "text": {
+            "content": "Wangsa Maju",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008154335,
+      "mentions": [
+        {
+          "text": {
+            "content": "dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "heart.Vets",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.008049523,
+      "mentions": [
+        {
+          "text": {
+            "content": "heart.Vets",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "expenses",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0071658907,
+      "mentions": [
+        {
+          "text": {
+            "content": "expenses",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "temperament dog",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.006557492,
+      "mentions": [
+        {
+          "text": {
+            "content": "temperament dog",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "neutering",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004495042,
+      "mentions": [
+        {
+          "text": {
+            "content": "neutering",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vaccination",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.004495042,
+      "mentions": [
+        {
+          "text": {
+            "content": "vaccination",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 2,
+    "score": 0.2
+  },
+  "language": "en",
+  "categories": []
+}

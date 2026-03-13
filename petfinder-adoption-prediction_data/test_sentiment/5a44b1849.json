@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "DORA'S TOILET TRAINED DOMESTICATED AND ADORABLE.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "IM LEAVING THE COUNTRY IN DECEMBER SO NEED TO FIND A HOME FOR HERE ASAP.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": -0.1
+      }
+    },
+    {
+      "text": {
+        "content": "SHES A VERY CUDDLY KITTEN",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "DORA'S TOILET",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.5497827,
+      "mentions": [
+        {
+          "text": {
+            "content": "DORA'S TOILET",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.24909154,
+      "mentions": [
+        {
+          "text": {
+            "content": "COUNTRY",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "IM",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.07622534,
+      "mentions": [
+        {
+          "text": {
+            "content": "IM",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "KITTEN",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.063054055,
+      "mentions": [
+        {
+          "text": {
+            "content": "KITTEN",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "HOME",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.06184637,
+      "mentions": [
+        {
+          "text": {
+            "content": "HOME",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.2,
+    "score": 0.3
+  },
+  "language": "en",
+  "categories": []
+}

@@ -1,0 +1,406 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "This cutie was found seriously sick two months ago, with eye infections and running nose.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": -0.7
+      }
+    },
+    {
+      "text": {
+        "content": "Now he is fully recovered and looking for loving forever homes.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "He is healthy, energetic and playful, estimated to be 2-3mths old.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Looking for adopter who can promise to bring them to sterilisation and vaccination when they are 6mths old.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    },
+    {
+      "text": {
+        "content": "Small adoption fee RM10 applies to deter irresponsible adopters.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": -0.9
+      }
+    },
+    {
+      "text": {
+        "content": "Money will be used to sterilise other cats.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "Having a pet is lifetime commitment, please plan and discuss with your family ahead before you make the decision.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.1,
+        "score": 0.1
+      }
+    },
+    {
+      "text": {
+        "content": "Meet up at kulai/Senai/Skudai, other JB area can be discuss.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.2,
+        "score": 0.2
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "eye infections",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21883602,
+      "mentions": [
+        {
+          "text": {
+            "content": "eye infections",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "running nose",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21883602,
+      "mentions": [
+        {
+          "text": {
+            "content": "running nose",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cutie",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.21883602,
+      "mentions": [
+        {
+          "text": {
+            "content": "cutie",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "homes",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.041686732,
+      "mentions": [
+        {
+          "text": {
+            "content": "homes",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Money",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.0334324,
+      "mentions": [
+        {
+          "text": {
+            "content": "Money",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adopters",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.032310616,
+      "mentions": [
+        {
+          "text": {
+            "content": "adopters",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Skudai",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/058z21",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Skudai"
+      },
+      "salience": 0.030505186,
+      "mentions": [
+        {
+          "text": {
+            "content": "Skudai",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "area",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "sterilisation",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.028317468,
+      "mentions": [
+        {
+          "text": {
+            "content": "sterilisation",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "vaccination",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.028317468,
+      "mentions": [
+        {
+          "text": {
+            "content": "vaccination",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "adoption fee",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.025923856,
+      "mentions": [
+        {
+          "text": {
+            "content": "adoption fee",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "plan",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.019481733,
+      "mentions": [
+        {
+          "text": {
+            "content": "plan",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "family",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.019481733,
+      "mentions": [
+        {
+          "text": {
+            "content": "family",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "RM10",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.016329283,
+      "mentions": [
+        {
+          "text": {
+            "content": "RM10",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "decision",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.015433601,
+      "mentions": [
+        {
+          "text": {
+            "content": "decision",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "lifetime commitment",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.010944901,
+      "mentions": [
+        {
+          "text": {
+            "content": "lifetime commitment",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "cats",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008576798,
+      "mentions": [
+        {
+          "text": {
+            "content": "cats",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "pet",
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0.008560566,
+      "mentions": [
+        {
+          "text": {
+            "content": "pet",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Senai",
+      "type": "ORGANIZATION",
+      "metadata": {},
+      "salience": 0.0080631925,
+      "mentions": [
+        {
+          "text": {
+            "content": "Senai",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "kulai",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/08htmf",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kulai"
+      },
+      "salience": 0.0080631925,
+      "mentions": [
+        {
+          "text": {
+            "content": "kulai",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "JB",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.0080631925,
+      "mentions": [
+        {
+          "text": {
+            "content": "JB",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 4.9,
+    "score": 0.1
+  },
+  "language": "en",
+  "categories": []
+}

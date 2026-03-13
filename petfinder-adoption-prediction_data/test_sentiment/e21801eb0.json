@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "text": {
+        "content": "Mango is the most playful little cat you'll meet.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.7,
+        "score": 0.7
+      }
+    },
+    {
+      "text": {
+        "content": "He loves to be pampered and is very friendly, unfortunately I have to let him go as I'm movie to a small apartment with other housemates.",
+        "beginOffset": -1
+      },
+      "sentiment": {
+        "magnitude": 0.8,
+        "score": 0.8
+      }
+    }
+  ],
+  "tokens": [],
+  "entities": [
+    {
+      "name": "Mango",
+      "type": "OTHER",
+      "metadata": {
+        "mid": "/m/0fldg",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mango"
+      },
+      "salience": 0.76475936,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mango",
+            "beginOffset": -1
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "cat",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "movie",
+      "type": "WORK_OF_ART",
+      "metadata": {},
+      "salience": 0.18749435,
+      "mentions": [
+        {
+          "text": {
+            "content": "movie",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "apartment",
+      "type": "LOCATION",
+      "metadata": {},
+      "salience": 0.028037716,
+      "mentions": [
+        {
+          "text": {
+            "content": "apartment",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "housemates",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.01970855,
+      "mentions": [
+        {
+          "text": {
+            "content": "housemates",
+            "beginOffset": -1
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "documentSentiment": {
+    "magnitude": 1.6,
+    "score": 0.8
+  },
+  "language": "en",
+  "categories": []
+}
