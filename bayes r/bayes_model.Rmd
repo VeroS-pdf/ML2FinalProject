@@ -55,10 +55,19 @@ model <- brm(
   refresh = 100,
   control = list(adapt_delta = 0.95, max_treedepth = 12)
 )
+
 ```
 
+``` {r save}
+saveRDS(model, "bayes_model_fit.rds")
+```
 ## Outcomes
-lol uhh,,, are we supposed to do anythign else here....
 ```{r summary}
+summary(model)
+```
+
+## Load Saved Model
+```{r load-saved-model, eval=FALSE}
+model <- readRDS("bayes_model_fit.rds")
 summary(model)
 ```
