@@ -37,6 +37,14 @@ with interactive_charts:
     st.header("Interactive Time Series Plots")
     st.subheader("Try adjusting these settings and see what happens! ")
 
+    # USE THIS CODE BELOW AS A REFERENCE 
+    
+    # let's visualize adoption rates! 
+    # maybe have like a section of features and then bar chart where x is adoption speed and y is count of pets with that adoption speed, and then have a dropdown where you can select a feature and it will break down the bar chart by that feature?
+
+    # or adoption rates 
+
+
     
     # numlags = st.slider(
     #     "Number of Lags (recommended to sit around 51)",
