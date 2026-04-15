@@ -94,12 +94,17 @@ with interactive_charts:
 
 
 with models:
-
     with st.spinner(f"Running MLP model:"):
         y_test_pred, y_test = run_mlp_pipeline(pet_preferences)
 
+
     test_r2 = r2_score(y_test, y_test_pred)
     accuracy = accuracy_score(y_test, y_test_pred)
+
+    st.write(f"MLP Model Performance:")
+    st.write(f"R2 Score: {test_r2:.2f}")
+    st.write(f"Accuracy: {accuracy*100:.2f}%")
+
 
     cm = confusion_matrix(y_test, y_test_pred)
 
