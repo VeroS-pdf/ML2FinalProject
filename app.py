@@ -34,64 +34,69 @@ with landing:
 
 # CHARTS
 with interactive_charts:
-    st.header("Interactive Time Series Plots")
-    st.subheader("Try adjusting these settings and see what happens! ")
+    st.header("Interactive Adoption Plots")
+    st.subheader("Explore how different features affect adoption outcomes")
 
-    # USE THIS CODE BELOW AS A REFERENCE 
-    
-    # let's visualize adoption rates! 
-    # maybe have like a section of features and then bar chart where x is adoption speed and y is count of pets with that adoption speed, and then have a dropdown where you can select a feature and it will break down the bar chart by that feature?
+    # controls
+    feature = st.selectbox(
+        "Select Feature to Analyze",
+        ["PetType", "Breed", "Vaccinated", "HealthCondition", "PreviousOwner"],
+        index=0
+    )
 
-    # or adoption rates 
+    plot_type = st.radio(
+        "Select Plot Type",
+        ["Adoption Rate", "Counts"],
+        horizontal=True
+    )
 
+    pet_filter = st.selectbox(
+        "Filter by Pet Type",
+        ["All"] + sorted(pets["PetType"].unique()),
+        index=0
+    )
 
-    
-    # numlags = st.slider(
-    #     "Number of Lags (recommended to sit around 51)",
-    #     min_value=3,
-    #     max_value=90,
-    #     value=51,
-    #     step=1
-    # )
+    filtered = pets.copy()
 
-    # weather_var = st.selectbox(
-    #     "Select Weather Variable",
-    #     ["TAVG", "PRCP", "TMIN", "TMAX"], 
-    #     index=0
-    # )
+    if pet_filter != "All":
+        filtered = filtered[filtered["PetType"] == pet_filter]
 
-    # st.write("Building a interactive model with ", numlags, "lags and ",weather_var," weather type")
-    # with st.spinner(f"Running model using '{weather_var}'..."):
-    #     preds, test, beta = run_forecast_pipeline(
-    #         combined,
-    #         numlags=numlags,
-    #         weather_var=weather_var
-    #     )
+    if feature == "Breed":
+        top_vals = filtered["Breed"].value_counts().nlargest(10).index
+        filtered = filtered[filtered["Breed"].isin(top_vals)]
 
-    # fig, ax = plt.subplots(figsize=(14,6))
+    fig, ax = plt.subplots(figsize=(10, 5))
 
-    # ax.plot(test['DATE'], test['consumption'], label="Actual", linewidth=2)
-    # ax.plot(test['DATE'], preds.values, label="Predicted", linestyle="--")
+    if plot_type == "Adoption Rate":
+        grouped = (
+            filtered
+            .groupby(feature)["AdoptionLikelihood"]
+            .mean()
+            .sort_values(ascending=False)
+        )
 
-    # ax.set_title(f"Forecast with {numlags} Lags — Weather: {weather_var}")
-    # ax.set_xlabel("Date")
-    # ax.set_ylabel("Consumption")
-    # ax.legend()
-    # ax.grid(True)
+        ax.bar(grouped.index, grouped.values)
+        ax.set_ylabel("Adoption Rate")
+        ax.set_title(f"Adoption Rate by {feature}")
 
-    # st.pyplot(fig)
+    else: 
+        counts = (
+            filtered
+            .groupby([feature, "AdoptionLikelihood"])
+            .size()
+            .unstack(fill_value=0)
+        )
 
-    # actuals = test['consumption'].values
-    # rmse = np.sqrt(np.mean((actuals - preds.values)**2))
-    # mae = np.mean(np.abs(actuals - preds.values))
-    # mape = np.mean(np.abs((actuals - preds.values) / actuals)) * 100
+        counts.plot(kind="bar", stacked=True, ax=ax)
+        ax.set_ylabel("Count")
+        ax.set_title(f"Adoption Counts by {feature}")
+        ax.legend(["Not Adopted", "Adopted"])
 
-    # st.subheader("Model Performance")
-    # st.write(f"**RMSE:** {rmse:.2f}")
-    # st.write(f"**MAE:**  {mae:.2f}")
-    # st.write(f"**MAPE:** {mape:.2f} %")
+    ax.set_xlabel(feature)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
+    ax.grid(axis="y", linestyle="--", alpha=0.7)
 
-
+    st.pyplot(fig)
 
 with models:
 
