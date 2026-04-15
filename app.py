@@ -34,6 +34,8 @@ with landing:
 
 # CHARTS
 with interactive_charts:
+    pets = pd.read_csv("pet_adoption_data.csv")
+
     st.header("Interactive Adoption Plots")
     st.subheader("Explore how different features affect adoption outcomes")
 
