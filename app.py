@@ -28,9 +28,9 @@ landing, interactive_charts, models, about = st.tabs(["Home Page", "Interactive 
 
 # LANDING PAGE 
 with landing:
-    st.write(" ")
-
-    st.image("petfinder-adoption-prediction_data\test_images\0a3d2b273-1.jpg")
+    st.write("Welcome to our Pet adoption project! This project aims to help understand people's preferences for pets, and then also try to understand if pet features have impact on adoption speed.")
+    with st.container(horizontal=True, horizontal_alignment="center"):
+        st.image("petfinder-adoption-prediction_data/test_images/0a3d2b273-1.jpg")
 
 # CHARTS
 with interactive_charts:

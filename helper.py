@@ -46,12 +46,16 @@ def run_mlp_pipeline(pet_qs):
         test_size=0.2,      
         random_state=42, # keep   
     )
+    
 
     # scale
     scaler = MinMaxScaler()
     # guys i don't remmber if u scale the x train and test sep or tg but we do sep horray 
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
+
+    y_train = y_train.to_numpy()
+    y_test = y_test.to_numpy()
 
 
     # training model
@@ -73,7 +77,6 @@ def run_mlp_pipeline(pet_qs):
     n = X_train_scaled.shape[0]
     d = X_train_scaled.shape[1]
 
-    print(f"BEFORE training - W1 sum: {W1.sum():.4f}")
 
     for epoch in tqdm(range(epochs)):
         dW2 = 0
@@ -112,10 +115,6 @@ def run_mlp_pipeline(pet_qs):
         
         e = np.mean((np.array(preds_train) - y_train)**2)
         errors.append(e)
-
-    print(f"AFTER training - W1 sum: {W1.sum():.4f}")
-    print(f"First error: {errors[0]:.4f}")
-    print(f"Last error: {errors[-1]:.4f}")
 
     y_test_pred_prob = []
     y_test_pred = []
