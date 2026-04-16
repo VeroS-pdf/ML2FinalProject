@@ -22,22 +22,29 @@ def load_clean_pet_pref_data():
     pet_preferences_clean = pet_preferences.dropna()
     return pet_preferences_clean
 
+@st.cache_data
+def load_pet_data(): 
+    pets = pd.read_csv("bayes r/pet_adoption_data.csv")
+    return pets
+
+pets = load_pet_data()
 
 landing, interactive_charts, models, about = st.tabs(["Home Page", "Interactive charts", "Our Models", "About"])
 
 
 # LANDING PAGE 
 with landing:
-    st.write("Welcome to our Pet adoption project! This project aims to help understand people's preferences for pets, and then also try to understand if pet features have impact on adoption speed.")
+    st.header("Barkesian Models")
+    st.write("Pet ownership has long been associated with positive outcomes, from teaching children the responsibilities of caring for another life to combating stress and mental illnesses to working as service animals. But certain pets work better for people’s lifestyles, household dynamics, and personality traits. Our project aims to create an MLP predictive model that reads in a person’s personality traits and matches them to the type of pet that best fits them, a CNN classifier that identifies an adoptable animal’s species and key traits, and a Bayesian predictive model that predicts the likelihood of pet adoption based on the animal’s identified key traits.")
     with st.container(horizontal=True, horizontal_alignment="center"):
         st.image("petfinder-adoption-prediction_data/test_images/0a3d2b273-1.jpg")
 
 # CHARTS
 with interactive_charts:
-    pets = pd.read_csv("pet_adoption_data.csv")
 
     st.header("Interactive Adoption Plots")
     st.subheader("Explore how different features affect adoption outcomes")
+    st.write("Note: 0 on the x axis represents false and 1 is true")
 
     # controls
     feature = st.selectbox(
@@ -101,14 +108,14 @@ with interactive_charts:
     st.pyplot(fig)
 
 with models:
-    with st.spinner(f"Running MLP model:"):
+    with st.spinner(f"Fetching predictions..."):
         y_test_pred, y_test = run_mlp_pipeline(pet_preferences)
 
 
     test_r2 = r2_score(y_test, y_test_pred)
     accuracy = accuracy_score(y_test, y_test_pred)
 
-    st.write(f"MLP Model Performance:")
+    st.header(f"MLP Model Performance")
     st.write(f"R2 Score: {test_r2:.2f}")
     st.write(f"Accuracy: {accuracy*100:.2f}%")
 
