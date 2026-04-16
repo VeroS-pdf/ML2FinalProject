@@ -34,64 +34,84 @@ with landing:
 
 # CHARTS
 with interactive_charts:
-    st.header("Interactive Time Series Plots")
-    st.subheader("Try adjusting these settings and see what happens! ")
+    pets = pd.read_csv("pet_adoption_data.csv")
 
-    
-    # numlags = st.slider(
-    #     "Number of Lags (recommended to sit around 51)",
-    #     min_value=3,
-    #     max_value=90,
-    #     value=51,
-    #     step=1
-    # )
+    st.header("Interactive Adoption Plots")
+    st.subheader("Explore how different features affect adoption outcomes")
 
-    # weather_var = st.selectbox(
-    #     "Select Weather Variable",
-    #     ["TAVG", "PRCP", "TMIN", "TMAX"], 
-    #     index=0
-    # )
+    # controls
+    feature = st.selectbox(
+        "Select Feature to Analyze",
+        ["PetType", "Breed", "Vaccinated", "HealthCondition", "PreviousOwner"],
+        index=0
+    )
 
-    # st.write("Building a interactive model with ", numlags, "lags and ",weather_var," weather type")
-    # with st.spinner(f"Running model using '{weather_var}'..."):
-    #     preds, test, beta = run_forecast_pipeline(
-    #         combined,
-    #         numlags=numlags,
-    #         weather_var=weather_var
-    #     )
+    plot_type = st.radio(
+        "Select Plot Type",
+        ["Adoption Rate", "Counts"],
+        horizontal=True
+    )
 
-    # fig, ax = plt.subplots(figsize=(14,6))
+    pet_filter = st.selectbox(
+        "Filter by Pet Type",
+        ["All"] + sorted(pets["PetType"].unique()),
+        index=0
+    )
 
-    # ax.plot(test['DATE'], test['consumption'], label="Actual", linewidth=2)
-    # ax.plot(test['DATE'], preds.values, label="Predicted", linestyle="--")
+    filtered = pets.copy()
 
-    # ax.set_title(f"Forecast with {numlags} Lags — Weather: {weather_var}")
-    # ax.set_xlabel("Date")
-    # ax.set_ylabel("Consumption")
-    # ax.legend()
-    # ax.grid(True)
+    if pet_filter != "All":
+        filtered = filtered[filtered["PetType"] == pet_filter]
 
-    # st.pyplot(fig)
+    if feature == "Breed":
+        top_vals = filtered["Breed"].value_counts().nlargest(10).index
+        filtered = filtered[filtered["Breed"].isin(top_vals)]
 
-    # actuals = test['consumption'].values
-    # rmse = np.sqrt(np.mean((actuals - preds.values)**2))
-    # mae = np.mean(np.abs(actuals - preds.values))
-    # mape = np.mean(np.abs((actuals - preds.values) / actuals)) * 100
+    fig, ax = plt.subplots(figsize=(10, 5))
 
-    # st.subheader("Model Performance")
-    # st.write(f"**RMSE:** {rmse:.2f}")
-    # st.write(f"**MAE:**  {mae:.2f}")
-    # st.write(f"**MAPE:** {mape:.2f} %")
+    if plot_type == "Adoption Rate":
+        grouped = (
+            filtered
+            .groupby(feature)["AdoptionLikelihood"]
+            .mean()
+            .sort_values(ascending=False)
+        )
 
+        ax.bar(grouped.index, grouped.values)
+        ax.set_ylabel("Adoption Rate")
+        ax.set_title(f"Adoption Rate by {feature}")
 
+    else: 
+        counts = (
+            filtered
+            .groupby([feature, "AdoptionLikelihood"])
+            .size()
+            .unstack(fill_value=0)
+        )
+
+        counts.plot(kind="bar", stacked=True, ax=ax)
+        ax.set_ylabel("Count")
+        ax.set_title(f"Adoption Counts by {feature}")
+        ax.legend(["Not Adopted", "Adopted"])
+
+    ax.set_xlabel(feature)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
+    ax.grid(axis="y", linestyle="--", alpha=0.7)
+
+    st.pyplot(fig)
 
 with models:
-
     with st.spinner(f"Running MLP model:"):
         y_test_pred, y_test = run_mlp_pipeline(pet_preferences)
 
+
     test_r2 = r2_score(y_test, y_test_pred)
     accuracy = accuracy_score(y_test, y_test_pred)
+
+    st.write(f"MLP Model Performance:")
+    st.write(f"R2 Score: {test_r2:.2f}")
+    st.write(f"Accuracy: {accuracy*100:.2f}%")
+
 
     cm = confusion_matrix(y_test, y_test_pred)
 
