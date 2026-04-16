@@ -129,10 +129,6 @@ with interactive_charts:
 with models:
     st.write("We employed 3 different models with the task of predicting adoption outcomes for pets through various features: MLP, CNN, and Bayesian model.")
 
-    st.header("CNN Model Performance")
-    st.write("Accuracy: 25.49%")
-
-
     with st.spinner(f"Fetching predictions..."):
         y_test_pred, y_test = run_mlp_pipeline(pet_preferences)
 
@@ -165,6 +161,9 @@ with models:
     st.write("Accuracy: 75.12%")
     st.write("AUC: 0.834")
     st.image("plots/bayes_plot.png")
+
+    st.header("CNN Model Performance")
+    st.write("Accuracy: 25.49%")
 
     # pp_check, comp = st.tabs(['PP Check', 'Comparison'])
     # with pp_check:
