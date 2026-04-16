@@ -17,16 +17,19 @@ set.seed(42)
 library(brms)
 library(forcats)
 library(pROC)
+
+library(bayesplot)
+library(ggplot2)
 ```
 
 ## Read Data
-```{r read}
+```{r read eval=FALSE}
 pets <- read.csv("pet_adoption_data.csv")
 head(pets)
 ```
 
 ## Quick Data Checks
-```{r checks}
+```{r checks eval=FALSE}
 table(pets$AdoptionLikelihood, useNA = "ifany")
 
 model_cols <- c(
@@ -39,7 +42,7 @@ colSums(is.na(pets[model_cols]))
 ```
 
 ## Preprocess
-```{r preprocess}
+```{r preprocess eval=FALSE}
 pets_scaled <- pets 
 pets_scaled$Breed <- fct_lump(as.factor(pets$Breed), n = 5)
 
@@ -67,7 +70,7 @@ test_data  <- pets_scaled[-train_idx, ]
 ```
 
 ## Fit Bayes Model
-```{r bayes model}
+```{r bayes model eval=FALSE}
 n_chains <- 4
 n_iter <- 2000
 n_warmup <- 1000
@@ -107,7 +110,6 @@ model <- readRDS("bayes_model_fit_5.rds")
 
 ## Outcomes
 ```{r summary}
-library("pROC")
 summary(model)
 
 pred_probs <- fitted(model, newdata = test_data)[, "Estimate"]
@@ -120,4 +122,11 @@ roc_obj <- roc(y_test, pred_probs)
 auc(roc_obj)
 
 pred_probs <- fitted(model, newdata = test_data)[, "Estimate"]
+
+params <- variables(model)
+params <- params[grepl("^b_", params) & !grepl("Intercept", params)]
+
+mcmc_intervals(model, pars = params) +
+  scale_y_discrete(labels = gsub("^b_", "", params)) +
+  ggtitle("Bayesian Model Feature Importance")
 ```
