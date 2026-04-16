@@ -39,7 +39,6 @@ colSums(is.na(pets[model_cols]))
 ```
 
 ## Preprocess
-
 ```{r preprocess}
 pets_scaled <- pets 
 pets_scaled$Breed <- fct_lump(as.factor(pets$Breed), n = 5)
@@ -58,6 +57,13 @@ pets_scaled$PreviousOwner <- as.factor(pets$PreviousOwner)
 
 # check Bernoulli outcome
 stopifnot(all(pets_scaled$AdoptionLikelihood %in% c(0, 1)))
+
+
+n <- nrow(pets_scaled)
+train_idx <- sample(1:n, size = 0.8 * n)
+
+train_data <- pets_scaled[train_idx, ]
+test_data  <- pets_scaled[-train_idx, ]
 ```
 
 ## Fit Bayes Model
@@ -78,7 +84,7 @@ model <- brm(
     AdoptionFee + TimeInShelterDays + PreviousOwner + WeightKg + (1 | Breed)
   ,
   family = bernoulli("logit"),
-  data = pets_scaled,
+  data = train_data,
   chains = n_chains,
   cores = 4,
   seed = 42,
@@ -91,5 +97,27 @@ model <- brm(
     )
 )
 
-saveRDS(model, "bayes_model_fit_4.rds")
+saveRDS(model, "bayes_model_fit_5.rds")
+```
+
+## Load Saved Model
+```{r load-saved-model, eval=FALSE}
+model <- readRDS("bayes_model_fit_5.rds")
+```
+
+## Outcomes
+```{r summary}
+library("pROC")
+summary(model)
+
+pred_probs <- fitted(model, newdata = test_data)[, "Estimate"]
+pred_class <- ifelse(pred_probs > 0.5, 1, 0)
+
+y_test <- test_data$AdoptionLikelihood
+mean(pred_class == y_test)
+
+roc_obj <- roc(y_test, pred_probs)
+auc(roc_obj)
+
+pred_probs <- fitted(model, newdata = test_data)[, "Estimate"]
 ```
