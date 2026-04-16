@@ -1,4 +1,8 @@
+import os
+from streamlit_carousel import carousel
+import random
 import streamlit as st
+import streamlit.components.v1 as components
 import numpy as np
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
@@ -36,8 +40,23 @@ landing, interactive_charts, models, about = st.tabs(["Home Page", "Interactive 
 with landing:
     st.header("Barkesian Models")
     st.write("Pet ownership has long been associated with positive outcomes, from teaching children the responsibilities of caring for another life to combating stress and mental illnesses to working as service animals. But certain pets work better for people’s lifestyles, household dynamics, and personality traits. Our project aims to create an MLP predictive model that reads in a person’s personality traits and matches them to the type of pet that best fits them, a CNN classifier that identifies an adoptable animal’s species and key traits, and a Bayesian predictive model that predicts the likelihood of pet adoption based on the animal’s identified key traits.")
+
+
+    st.subheader("Please take some time to meet some of our adoptable pets that were part of our dataset!!! ₍^ >⩊< ^₎Ⳋ .✦ ݁˖")
+    image_path = "petfinder-adoption-prediction_data/test_images/"
+    imageUrls = [f"{image_path}{f}" for f in os.listdir(image_path) if f.endswith(".jpg")]
+
+    sample = random.sample(imageUrls, 50)
+
+    images = []
+
+    for url in sample:
+        curr_image = {"title": "⋆˙⟡ ⋆.(˶>⩊<˶)⋆˙⟡ ⋆.˚", "text": "ADOPT ME!!! :3", "img": url}
+        images.append(curr_image)
+
     with st.container(horizontal=True, horizontal_alignment="center"):
-        st.image("petfinder-adoption-prediction_data/test_images/0a3d2b273-1.jpg")
+        carousel(items=images)
+        # st.image("petfinder-adoption-prediction_data/test_images/0a3d2b273-1.jpg")
 
 # CHARTS
 with interactive_charts:
