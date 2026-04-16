@@ -127,6 +127,8 @@ with interactive_charts:
     st.pyplot(fig)
 
 with models:
+    st.write("We employed 3 different models with the task of predicting adoption outcomes for pets through various features: MLP, CNN, and Bayesian model.")
+
     with st.spinner(f"Fetching predictions..."):
         y_test_pred, y_test = run_mlp_pipeline(pet_preferences)
 
@@ -155,6 +157,14 @@ with models:
 
     st.pyplot(fig)
 
+    st.header("Bayesian Model Performance")
+    st.write("Accuracy: 75.12%")
+    st.write("AUC: 0.834")
+    st.image("plots/bayes_plot.png")
+
+    st.header("CNN Model Performance")
+    st.write("Accuracy: 25.49%")
+
     # pp_check, comp = st.tabs(['PP Check', 'Comparison'])
     # with pp_check:
     #     # st.image("plots/pp_check.png")
@@ -165,4 +175,8 @@ with models:
 
 # About us 
 with about:
-    st.write("This is about us")
+    st.write("Feel free to reach out about any inquiries on our models, methodologies, or just to chat about our idea!")
+    st.header("Group Members")
+    st.link_button("Veronica Song", "https://www.linkedin.com/in/veronica-song/")
+    st.link_button("Sophia Yang", "https://www.linkedin.com/in/sophia-yang26/")
+    st.link_button("Alina Gonzalez", "https://www.linkedin.com/in/agonzalez26/")
